@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT DETAIL</title>
+</head>
+<body>
+    <H1>DETALLE DE PRODUCTO</H1>
+
+<% productDetail.forEach(prod => { %>
+ 
+    <div>
+    <h2>NOMBRE: <%= prod.name %> </h2>
+    <h2>DESCRIPCION:  <%= prod.description %> </h2> 
+    <h2> PRECIO: <%= prod.price %></h2>
+    <h2> DESCUENTO: <%= prod.discount %>  </h2>
+    </div>
+
+    <% }) %>
+
+</body>
+</html>
