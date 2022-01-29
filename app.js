@@ -2,17 +2,20 @@ const { urlencoded } = require("express");
 const express = require ("express");
 const app = express();
 const path = require ("path");
-const productController = require("./controllers/productControllers");
+const bodyParser = require('body-parser')
+const  methodOverride = require('method-override');
 const mainRouter = require ("./routers/mainRouter");
-const productRouter = require ("./routers/productRouter")
+const productRouter = require ("./routers/productRouter");
 
 const publicPath = "public";
 app.use(express.static(publicPath));
 
 app.set("view engine","ejs");
 
-app.use(express.urlencoded({extended: false}))
-app.use(express.json());
+app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.json());
+
+app.use(methodOverride("_method"))
 
 app.listen( process.env.PORT || 3000,()=> {
     console.log("el servidor esta corriendo en el puerto 3000")

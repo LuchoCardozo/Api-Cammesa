@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>PRODUCT DETAIL</title>
 </head>
 <body>
@@ -17,7 +18,10 @@
     <h2> PRECIO: <%= prod.price %></h2>
     <h2> DESCUENTO: <%= prod.discount %>  </h2>
     </div>
-
+<button type="submit"><a href="/products/edit/<%= prod.id %> ">EDITAR</a></button>
+<form action="/products/delete/<%= prod.id %>?_method=DELETE" method="POST">
+    <button type="submit">BORRAR</button>
+</form>
     <% }) %>
 
 </body>

@@ -26,14 +26,58 @@ const productController = {
     store: (req,res)=>{
      let newProduct = {
          id: products[products.length-1].id +1,
-         ...req.body,
-         image: "default.jpg"
+         name: req.body.name,
+         description: req.body.description,
+         color: req.body.color,
+         discount: parseInt(req.body.discount),
+         price: parseInt(req.body.price),
+         image: "default.jpg",
+         type: req.body.type
      }
     products.push(newProduct);
      const newJson = JSON.stringify(products,null,1);
      fs.writeFileSync(productsFilePath,newJson,"utf-8");
      res.render("products/formCreate")
-    }
+    },
+
+    formEdit: (req,res)=>{
+        let idProduct = req.params.id
+        const productEdit = products.filter(prod => prod.id == idProduct)
+        res.render("products/formEdit",{productEdit})
+      
+    },
+
+   update: (req,res)=>{
+    let idProduct = req.params.id ;
+    const productsEdit = products.filter(prod => prod.id != idProduct);
+
+    let prodEdit= {
+        id: parseInt(idProduct),
+        name: req.body.name,
+        description: req.body.description,
+        color: req.body.color,
+        discount: parseInt(req.body.discount),
+        price: parseInt(req.body.price),
+        image: "default.jpg",
+        type: req.body.type
+    } 
+    productsEdit.push(prodEdit);
+    let newJSON = JSON.stringify(productsEdit,null,1);
+    fs.writeFileSync(productsFilePath,newJSON,"utf-8");
+    const productEdit = productsEdit.filter(prod => prod.id == req.params.id)
+    res.redirect(`/products/detail/${productEdit[0].id}`);
+   
+   },
+
+delete: (req,res )=> {
+let idProduct = req.params.id
+const productsDelete = products.filter(prod => prod.id != idProduct);
+let newJSON = JSON.stringify(productsDelete,null,1);
+fs.writeFileSync(productsFilePath,newJSON,"utf-8");
+res.redirect("/products")
+
+   }
+
 
 }
 

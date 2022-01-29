@@ -8,5 +8,14 @@ body{
     width: 100%;
     margin: auto;
     display: block;
-    text-align: center;
+    padding: 50px;
+}
+
+.container-product{
+    display: block;
+    width: 30%;
+    margin: auto;
+    background-color: orange;
+     margin-bottom: 10px;
+
 }

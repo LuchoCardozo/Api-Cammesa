@@ -941,13 +941,13 @@
  },
  {
   "id": 95,
-  "name": "Ecolab - Mikroklene 4/4 L",
-  "description": "enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula",
-  "color": "Fuscia",
-  "discount": 12,
-  "price": 22873,
-  "image": "http://dummyimage.com/121x100.png/dddddd/000000",
-  "type": "new"
+  "name": "producttttt",
+  "description": "dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede",
+  "color": "Orange",
+  "discount": 15,
+  "price": 6455,
+  "image": "http://dummyimage.com/185x100.png/cc0000/ffffff",
+  "type": "in sale"
  },
  {
   "id": 96,
@@ -998,25 +998,5 @@
   "price": 99674,
   "image": "http://dummyimage.com/196x100.png/5fa2dd/ffffff",
   "type": "in-sale"
- },
- {
-  "id": 101,
-  "name": "tomate",
-  "description": "retro consola sega con 1000 juegos",
-  "color": "roja",
-  "discount": "5",
-  "price": "12000",
-  "image": "default.jpg",
-  "type": "in sale"
- },
- {
-  "id": 102,
-  "name": "cafe",
-  "description": "PC gammers full Placa de Video",
-  "color": "negro",
-  "discount": "12",
-  "price": "150000",
-  "image": "default.jpg",
-  "type": "in sale"
  }
 ]
