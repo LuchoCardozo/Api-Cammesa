@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>API</title>
 </head>
 <body>
-    <H1>SOY LA API</H1>
+    <H1>DEMANDA CHACO</H1>
+    <div class="tabla">
+        <table >
+            <thead>
+                <tr>
+                    <th>demHoy</th>
+                    <th>demAyer</th>
+                    <th>demSemAnt</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <% obj.forEach(dat => { %>
+                    <tr>
+                        <td><%= dat.demHoy %></td>
+                        <td><%= dat.demAyer %></td>
+                        <td><%= dat.demSemanaAnt %></td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            
+        </div>
 </body>
 </html>

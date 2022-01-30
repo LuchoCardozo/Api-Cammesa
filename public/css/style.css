@@ -19,3 +19,13 @@ body{
      margin-bottom: 10px;
 
 }
+
+.tabla {
+    display: block;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    margin: auto;
+}

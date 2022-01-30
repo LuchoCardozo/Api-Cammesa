@@ -1,6 +1,7 @@
 const express = require ("express")
 const path = require ("path")
 const fs = require ("fs");
+const { body , validationResult} = require("express-validator")
 
 
 const productsFilePath = path.join(__dirname, '../data/products.json');
@@ -21,10 +22,12 @@ const productController = {
     },
 
     formCreate: (req,res)=>{
-        res.render("products/formCreate")
+        const errores = validationResult(req);
+        const mensajes = errores.errors.map(error => error.msg)
+        res.render("products/formCreate",{errores: mensajes})
     },
 
-    store: (req,res,next)=>{
+    store: (req,res)=>{
      let newProduct = {
          id: products[products.length-1].id +1,
          name: req.body.name,
@@ -32,19 +35,20 @@ const productController = {
          color: req.body.color,
          discount: parseInt(req.body.discount),
          price: parseInt(req.body.price),
-         image: req.file.filename,
+         /*image: req.file.filename,*/
          type: req.body.type
      }
-     const file = req.file
-     if (!file) {
-       const error = new Error('Por favor seleccione un archivo')
-       error.httpStatusCode = 400
-       return next(error)
-     }else{ 
-    products.push(newProduct);
+
+     const errores = validationResult(req);
+     if (!errores.isEmpty()) {
+     const mensajes = errores.errors.map(error => error.msg)
+     console.log(mensajes)
+     res.render("products/formCreate", {errores: mensajes})
+     } else{ 
+     products.push(newProduct);
      const newJson = JSON.stringify(products,null,1);
      fs.writeFileSync(productsFilePath,newJson,"utf-8");
-     res.redirect("/products/create")
+     res.render("products/formCreate")
     }},
 
     formEdit: (req,res)=>{

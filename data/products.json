@@ -988,5 +988,23 @@
   "price": 99674,
   "image": "http://dummyimage.com/196x100.png/5fa2dd/ffffff",
   "type": "in-sale"
+ },
+ {
+  "id": 101,
+  "name": "asas",
+  "description": "asasas",
+  "color": "negro",
+  "discount": 5,
+  "price": 45,
+  "type": "visited"
+ },
+ {
+  "id": 102,
+  "name": "asadasdasd",
+  "description": "asdasdasdasd",
+  "color": "roja",
+  "discount": 5,
+  "price": 15,
+  "type": "in sale"
  }
 ]
