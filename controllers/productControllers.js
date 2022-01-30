@@ -8,7 +8,6 @@ const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
 
 
-
 const productController = {
 
     products: (req,res)=>{
@@ -35,7 +34,7 @@ const productController = {
          color: req.body.color,
          discount: parseInt(req.body.discount),
          price: parseInt(req.body.price),
-         /*image: req.file.filename,*/
+         image: req.file.filename,
          type: req.body.type
      }
 
