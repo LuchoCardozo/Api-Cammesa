@@ -6,6 +6,9 @@ const bodyParser = require('body-parser')
 const  methodOverride = require('method-override');
 const mainRouter = require ("./routers/mainRouter");
 const productRouter = require ("./routers/productRouter");
+const apiRouter = require ("./routers/apiRouter");
+
+
 
 const publicPath = "public";
 app.use(express.static(publicPath));
@@ -24,7 +27,7 @@ app.listen( process.env.PORT || 3000,()=> {
 
 app.use("/", mainRouter);
 app.use("/products", productRouter)
-
+app.use("/api", apiRouter)
 
 /*
 localhost:  3000                index

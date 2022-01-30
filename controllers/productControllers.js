@@ -1,6 +1,7 @@
 const express = require ("express")
 const path = require ("path")
-const fs = require ("fs")
+const fs = require ("fs");
+
 
 const productsFilePath = path.join(__dirname, '../data/products.json');
 const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
@@ -23,7 +24,7 @@ const productController = {
         res.render("products/formCreate")
     },
 
-    store: (req,res)=>{
+    store: (req,res,next)=>{
      let newProduct = {
          id: products[products.length-1].id +1,
          name: req.body.name,
@@ -31,14 +32,20 @@ const productController = {
          color: req.body.color,
          discount: parseInt(req.body.discount),
          price: parseInt(req.body.price),
-         image: "default.jpg",
+         image: req.file.filename,
          type: req.body.type
      }
+     const file = req.file
+     if (!file) {
+       const error = new Error('Por favor seleccione un archivo')
+       error.httpStatusCode = 400
+       return next(error)
+     }else{ 
     products.push(newProduct);
      const newJson = JSON.stringify(products,null,1);
      fs.writeFileSync(productsFilePath,newJson,"utf-8");
-     res.render("products/formCreate")
-    },
+     res.redirect("/products/create")
+    }},
 
     formEdit: (req,res)=>{
         let idProduct = req.params.id
@@ -58,7 +65,7 @@ const productController = {
         color: req.body.color,
         discount: parseInt(req.body.discount),
         price: parseInt(req.body.price),
-        image: "default.jpg",
+        image: req.file.filename,
         type: req.body.type
     } 
     productsEdit.push(prodEdit);

@@ -17,6 +17,7 @@
     <h2>DESCRIPCION:  <%= prod.description %> </h2> 
     <h2> PRECIO: <%= prod.price %></h2>
     <h2> DESCUENTO: <%= prod.discount %>  </h2>
+    <img src="/image/<%= prod.image %> " alt="">
     </div>
 <button type="submit"><a href="/products/edit/<%= prod.id %> ">EDITAR</a></button>
 <form action="/products/delete/<%= prod.id %>?_method=DELETE" method="POST">
