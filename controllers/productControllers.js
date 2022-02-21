@@ -15,15 +15,16 @@ const productController = {
     },
 
     productDetail:(req,res)=>{
-        let idProduct = req.params.id
-        const productDetail = products.filter(prod => prod.id == idProduct)
+        let idProduct = req.params.id;
+        const productDetail = products.filter(prod => prod.id == idProduct);
         res.render("products/productDetail",{productDetail})
     },
 
     formCreate: (req,res)=>{
         const errores = validationResult(req);
         const mensajes = errores.errors.map(error => error.msg)
-        res.render("products/formCreate",{errores: mensajes})
+        let datCargados = [req.body]
+        res.render("products/formCreate",{errores: mensajes, datCargados})
     },
 
     store: (req,res)=>{
@@ -34,15 +35,21 @@ const productController = {
          color: req.body.color,
          discount: parseInt(req.body.discount),
          price: parseInt(req.body.price),
-         image: req.file.filename,
+        /* image: ()=>{
+           let file = req.file
+           if (!file){
+               "default.jpg"
+           }else{ req.file.filename}
+           },   */     
          type: req.body.type
      }
 
      const errores = validationResult(req);
      if (!errores.isEmpty()) {
      const mensajes = errores.errors.map(error => error.msg)
-     console.log(mensajes)
-     res.render("products/formCreate", {errores: mensajes})
+     let datCargados =[req.body] 
+     console.log(datCargados);
+     res.render("products/formCreate", {errores: mensajes,datCargados})
      } else{ 
      products.push(newProduct);
      const newJson = JSON.stringify(products,null,1);

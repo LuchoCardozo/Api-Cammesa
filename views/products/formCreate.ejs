@@ -12,18 +12,22 @@
     <H2>COMPLETAR</H2><br>
 
     <% errores.forEach(msg => { %>
-        <p><%= msg %></p>
-        <% }) %>
+    <p><%= msg %></p>
+     <% }) %>
 
-    <form action="/products/create" method="POST" enctype="multipart/form-data">
+     <% datCargados.forEach(element => { %>
+       
+      
+      
+ <form action="/products/create" method="POST" enctype="multipart/form-data">
 
-<input type="text" name="name" id="name" placeholder="NOMBRE"> <br>
-<input type="text"  name="description" id="description" placeholder="DESCRIPCION"><br>
-<input type="text" name="color" id="color" placeholder="COLOR"><br>
-<input type="number" name="discount" id="discount" placeholder="DESCUENTO"><br>
-<input type="number"   name="price" id="price" placeholder="PRECIO"><br>
+<input type="text" name="name" id="name" placeholder="NOMBRE" value=<%= element.name %>> <br>
+<input type="text"  name="description" id="description" placeholder="DESCRIPCION" value=<%= element.description %>><br>
+<input type="text" name="color" id="color" placeholder="COLOR" value=<%= element.color %>><br>
+<input type="number" name="discount" id="discount" placeholder="DESCUENTO" value=<%= element.discount %>><br>
+<input type="number"   name="price" id="price" placeholder="PRECIO"  value=<%= element.price %>><br>
 <input type="file"  name="image" id="image" placeholder="IMAGEN"><br>
-<select name="type" id="type" placeholder="TIPO"><br>
+<select name="type" id="type" placeholder="TIPO" ><br>
     <option value="visited">nuevo</option>
     <option value="in sale">oferta</option>
     <option value="new">mas visitado</option>
@@ -32,6 +36,6 @@
 
 </form>
 
-
+<% }) %>  
 </body>
 </html>
