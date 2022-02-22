@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>API</title>
+    <title>CORRIENTES</title>
 </head>
 <body>
-    <H1>DEMANDA CHACO</H1>
+ 
+    <nav>
+        <ul>
+            <li><a href="/api/demandaChaco">DEMANDA CHACO</a></li>
+            <li><a href="/api/demandaCorrientes">DEMANDA CORRIENTES</a></li>
+            <li><a href="/api/demandaFormosa">DEMANDA FORMOSA</a></li>
+            <li><a href="/api/demandaMisiones">DEMANDA MISIONES</a></li>
+            <li><a href="/api/demandaNea">DEMANDA NEA</a></li>
+        </ul>
+    </nav>
+    <h1>DEMANDA CORRIENTES</h1>
     <div class="tabla">
         <table >
             <thead>
                 <tr>
+                    <th>Fecha</th>
                     <th>demHoy</th>
                     <th>demAyer</th>
                     <th>demSemAnt</th>
@@ -20,8 +31,9 @@
             </thead>
             
             <tbody>
-                <% obj.forEach(dat => { %>
+                <% corrientes.forEach(dat => { %>
                     <tr>
+                        <td><%= dat.fecha %></td>
                         <td><%= dat.demHoy %></td>
                         <td><%= dat.demAyer %></td>
                         <td><%= dat.demSemanaAnt %></td>

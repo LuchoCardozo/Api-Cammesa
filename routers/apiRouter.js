@@ -5,7 +5,11 @@ const apiController = require("../controllers/apiControllers");
 
 
 
-router.get ("/",apiController.api);
+router.get ("/demandaChaco",apiController.apiChaco);
+router.get ("/demandaFormosa",apiController.apiFormosa);
+router.get ("/demandaCorrientes",apiController.apiCorrientes);
+router.get ("/demandamisiones",apiController.apiMisiones);
+router.get ("/demandaNea",apiController.apiNea);
 
 
 

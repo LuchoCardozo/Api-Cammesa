@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>NEA</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/api/demandaChaco">DEMANDA CHACO</a></li>
+            <li><a href="/api/demandaCorrientes">DEMANDA CORRIENTES</a></li>
+            <li><a href="/api/demandaFormosa">DEMANDA FORMOSA</a></li>
+            <li><a href="/api/demandaMisiones">DEMANDA MISIONES</a></li>
+            <li><a href="/api/demandaNea">DEMANDA NEA</a></li>
+        </ul>
+    </nav>
+    <h1>DEMANDA NEA</h1>
+    <div class="tabla">
+        <table >
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>demHoy</th>
+                    <th>demAyer</th>
+                    <th>demSemAnt</th>
+                    <th>TemHoy</th>
+                    <th>TemAyer</th>
+                    <th>TemSemAnt</th>
+                </tr>
+            </thead>
+            
+            <tbody>
+                <% nea.forEach(dat => { %>
+                    <tr>
+                        <td><%= dat.fecha %></td>
+                        <td><%= dat.demHoy %></td>
+                        <td><%= dat.demAyer %></td>
+                        <td><%= dat.demSemanaAnt %></td>
+                        <td><%= dat.tempHoy %></td>
+                        <td><%= dat.tempAyer %></td>
+                        <td><%= dat.tempSemanaAnt %></td>
+                    </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            
+        </div>
+</body>
+</html>
