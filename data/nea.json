@@ -1,0 +1,2029 @@
+[
+ {
+  "fecha": "2022-02-23T00:05:00.000-0300",
+  "demHoy": 1790,
+  "demAyer": 1544,
+  "demSemanaAnt": 1776
+ },
+ {
+  "fecha": "2022-02-23T00:10:00.000-0300",
+  "demHoy": 1790,
+  "demAyer": 1540,
+  "demSemanaAnt": 1770
+ },
+ {
+  "fecha": "2022-02-23T00:15:00.000-0300",
+  "demHoy": 1777,
+  "demAyer": 1541,
+  "demSemanaAnt": 1762,
+  "tempHoy": 25.3,
+  "tempAyer": 24.6,
+  "tempSemanaAnt": 25.9
+ },
+ {
+  "fecha": "2022-02-23T00:20:00.000-0300",
+  "demHoy": 1799,
+  "demAyer": 1530,
+  "demSemanaAnt": 1750
+ },
+ {
+  "fecha": "2022-02-23T00:25:00.000-0300",
+  "demHoy": 1807,
+  "demAyer": 1520,
+  "demSemanaAnt": 1751
+ },
+ {
+  "fecha": "2022-02-23T00:30:00.000-0300",
+  "demHoy": 1809,
+  "demAyer": 1517,
+  "demSemanaAnt": 1756,
+  "tempHoy": 24.8,
+  "tempAyer": 24.5,
+  "tempSemanaAnt": 25.6
+ },
+ {
+  "fecha": "2022-02-23T00:35:00.000-0300",
+  "demHoy": 1808,
+  "demAyer": 1520,
+  "demSemanaAnt": 1732
+ },
+ {
+  "fecha": "2022-02-23T00:40:00.000-0300",
+  "demHoy": 1797,
+  "demAyer": 1511,
+  "demSemanaAnt": 1735
+ },
+ {
+  "fecha": "2022-02-23T00:45:00.000-0300",
+  "demHoy": 1781,
+  "demAyer": 1507,
+  "demSemanaAnt": 1729,
+  "tempHoy": 24.8,
+  "tempAyer": 24.1,
+  "tempSemanaAnt": 25.3
+ },
+ {
+  "fecha": "2022-02-23T00:50:00.000-0300",
+  "demHoy": 1797,
+  "demAyer": 1508,
+  "demSemanaAnt": 1722
+ },
+ {
+  "fecha": "2022-02-23T00:55:00.000-0300",
+  "demHoy": 1766,
+  "demAyer": 1502,
+  "demSemanaAnt": 1714
+ },
+ {
+  "fecha": "2022-02-23T01:00:00.000-0300",
+  "demHoy": 1763,
+  "demAyer": 1498,
+  "demSemanaAnt": 1708,
+  "demPrevista": 1662,
+  "tempHoy": 24.7,
+  "tempAyer": 24,
+  "tempSemanaAnt": 25.1
+ },
+ {
+  "fecha": "2022-02-23T01:05:00.000-0300",
+  "demHoy": 1753,
+  "demAyer": 1491,
+  "demSemanaAnt": 1705
+ },
+ {
+  "fecha": "2022-02-23T01:10:00.000-0300",
+  "demHoy": 1746,
+  "demAyer": 1479,
+  "demSemanaAnt": 1696
+ },
+ {
+  "fecha": "2022-02-23T01:15:00.000-0300",
+  "demHoy": 1741,
+  "demAyer": 1473,
+  "demSemanaAnt": 1688,
+  "tempHoy": 24.8,
+  "tempAyer": 24.2,
+  "tempSemanaAnt": 24.3
+ },
+ {
+  "fecha": "2022-02-23T01:20:00.000-0300",
+  "demHoy": 1726,
+  "demAyer": 1467,
+  "demSemanaAnt": 1670
+ },
+ {
+  "fecha": "2022-02-23T01:25:00.000-0300",
+  "demHoy": 1716,
+  "demAyer": 1464,
+  "demSemanaAnt": 1667
+ },
+ {
+  "fecha": "2022-02-23T01:30:00.000-0300",
+  "demHoy": 1720,
+  "demAyer": 1461,
+  "demSemanaAnt": 1665,
+  "tempHoy": 24.5,
+  "tempAyer": 24.1,
+  "tempSemanaAnt": 24
+ },
+ {
+  "fecha": "2022-02-23T01:35:00.000-0300",
+  "demHoy": 1702,
+  "demAyer": 1453,
+  "demSemanaAnt": 1658
+ },
+ {
+  "fecha": "2022-02-23T01:40:00.000-0300",
+  "demHoy": 1714,
+  "demAyer": 1448,
+  "demSemanaAnt": 1650
+ },
+ {
+  "fecha": "2022-02-23T01:45:00.000-0300",
+  "demHoy": 1698,
+  "demAyer": 1442,
+  "demSemanaAnt": 1647,
+  "tempHoy": 24.3,
+  "tempAyer": 24,
+  "tempSemanaAnt": 23.7
+ },
+ {
+  "fecha": "2022-02-23T01:50:00.000-0300",
+  "demHoy": 1691,
+  "demAyer": 1431,
+  "demSemanaAnt": 1618
+ },
+ {
+  "fecha": "2022-02-23T01:55:00.000-0300",
+  "demHoy": 1682,
+  "demAyer": 1426,
+  "demSemanaAnt": 1619
+ },
+ {
+  "fecha": "2022-02-23T02:00:00.000-0300",
+  "demHoy": 1673,
+  "demAyer": 1415,
+  "demSemanaAnt": 1595,
+  "demPrevista": 1558,
+  "tempHoy": 24.2,
+  "tempAyer": 23.5,
+  "tempSemanaAnt": 23
+ },
+ {
+  "fecha": "2022-02-23T02:05:00.000-0300",
+  "demHoy": 1668,
+  "demAyer": 1407,
+  "demSemanaAnt": 1594
+ },
+ {
+  "fecha": "2022-02-23T02:10:00.000-0300",
+  "demHoy": 1656,
+  "demAyer": 1406,
+  "demSemanaAnt": 1588
+ },
+ {
+  "fecha": "2022-02-23T02:15:00.000-0300",
+  "demHoy": 1641,
+  "demAyer": 1400,
+  "demSemanaAnt": 1580,
+  "tempHoy": 24.2,
+  "tempAyer": 23.4,
+  "tempSemanaAnt": 22.3
+ },
+ {
+  "fecha": "2022-02-23T02:20:00.000-0300",
+  "demHoy": 1636,
+  "demAyer": 1401,
+  "demSemanaAnt": 1574
+ },
+ {
+  "fecha": "2022-02-23T02:25:00.000-0300",
+  "demHoy": 1617,
+  "demAyer": 1396,
+  "demSemanaAnt": 1573
+ },
+ {
+  "fecha": "2022-02-23T02:30:00.000-0300",
+  "demHoy": 1613,
+  "demAyer": 1389,
+  "demSemanaAnt": 1565,
+  "tempHoy": 24,
+  "tempAyer": 23.3,
+  "tempSemanaAnt": 22.2
+ },
+ {
+  "fecha": "2022-02-23T02:35:00.000-0300",
+  "demHoy": 1611,
+  "demAyer": 1383,
+  "demSemanaAnt": 1551
+ },
+ {
+  "fecha": "2022-02-23T02:40:00.000-0300",
+  "demHoy": 1600,
+  "demAyer": 1370,
+  "demSemanaAnt": 1547
+ },
+ {
+  "fecha": "2022-02-23T02:45:00.000-0300",
+  "demHoy": 1595,
+  "demAyer": 1371,
+  "demSemanaAnt": 1536,
+  "tempHoy": 24,
+  "tempAyer": 23.3,
+  "tempSemanaAnt": 22.2
+ },
+ {
+  "fecha": "2022-02-23T02:50:00.000-0300",
+  "demHoy": 1591,
+  "demAyer": 1362,
+  "demSemanaAnt": 1533
+ },
+ {
+  "fecha": "2022-02-23T02:55:00.000-0300",
+  "demHoy": 1585,
+  "demAyer": 1357,
+  "demSemanaAnt": 1526
+ },
+ {
+  "fecha": "2022-02-23T03:00:00.000-0300",
+  "demHoy": 1569,
+  "demAyer": 1354,
+  "demSemanaAnt": 1523,
+  "demPrevista": 1508,
+  "tempHoy": 23.6,
+  "tempAyer": 23.3,
+  "tempSemanaAnt": 22.2
+ },
+ {
+  "fecha": "2022-02-23T03:05:00.000-0300",
+  "demHoy": 1566,
+  "demAyer": 1346,
+  "demSemanaAnt": 1513
+ },
+ {
+  "fecha": "2022-02-23T03:10:00.000-0300",
+  "demHoy": 1560,
+  "demAyer": 1342,
+  "demSemanaAnt": 1509
+ },
+ {
+  "fecha": "2022-02-23T03:15:00.000-0300",
+  "demHoy": 1550,
+  "demAyer": 1342,
+  "demSemanaAnt": 1509,
+  "tempHoy": 23.6,
+  "tempAyer": 23.2,
+  "tempSemanaAnt": 22.3
+ },
+ {
+  "fecha": "2022-02-23T03:20:00.000-0300",
+  "demHoy": 1546,
+  "demAyer": 1335,
+  "demSemanaAnt": 1491
+ },
+ {
+  "fecha": "2022-02-23T03:25:00.000-0300",
+  "demHoy": 1538,
+  "demAyer": 1331,
+  "demSemanaAnt": 1494
+ },
+ {
+  "fecha": "2022-02-23T03:30:00.000-0300",
+  "demHoy": 1528,
+  "demAyer": 1327,
+  "demSemanaAnt": 1488,
+  "tempHoy": 23.4,
+  "tempAyer": 22.9,
+  "tempSemanaAnt": 21.7
+ },
+ {
+  "fecha": "2022-02-23T03:35:00.000-0300",
+  "demHoy": 1531,
+  "demAyer": 1324,
+  "demSemanaAnt": 1481
+ },
+ {
+  "fecha": "2022-02-23T03:40:00.000-0300",
+  "demHoy": 1520,
+  "demAyer": 1317,
+  "demSemanaAnt": 1469
+ },
+ {
+  "fecha": "2022-02-23T03:45:00.000-0300",
+  "demHoy": 1513,
+  "demAyer": 1310,
+  "demSemanaAnt": 1460,
+  "tempHoy": 23.4,
+  "tempAyer": 22.7,
+  "tempSemanaAnt": 21.6
+ },
+ {
+  "fecha": "2022-02-23T03:50:00.000-0300",
+  "demHoy": 1506,
+  "demAyer": 1307,
+  "demSemanaAnt": 1448
+ },
+ {
+  "fecha": "2022-02-23T03:55:00.000-0300",
+  "demHoy": 1499,
+  "demAyer": 1312,
+  "demSemanaAnt": 1448
+ },
+ {
+  "fecha": "2022-02-23T04:00:00.000-0300",
+  "demHoy": 1496,
+  "demAyer": 1302,
+  "demSemanaAnt": 1440,
+  "demPrevista": 1438,
+  "tempHoy": 23.3,
+  "tempAyer": 22.6,
+  "tempSemanaAnt": 21.4
+ },
+ {
+  "fecha": "2022-02-23T04:05:00.000-0300",
+  "demHoy": 1488,
+  "demAyer": 1305,
+  "demSemanaAnt": 1434
+ },
+ {
+  "fecha": "2022-02-23T04:10:00.000-0300",
+  "demHoy": 1486,
+  "demAyer": 1287,
+  "demSemanaAnt": 1435
+ },
+ {
+  "fecha": "2022-02-23T04:15:00.000-0300",
+  "demHoy": 1477,
+  "demAyer": 1290,
+  "demSemanaAnt": 1429,
+  "tempHoy": 23.3,
+  "tempAyer": 22.5,
+  "tempSemanaAnt": 20.7
+ },
+ {
+  "fecha": "2022-02-23T04:20:00.000-0300",
+  "demHoy": 1473,
+  "demAyer": 1285,
+  "demSemanaAnt": 1423
+ },
+ {
+  "fecha": "2022-02-23T04:25:00.000-0300",
+  "demHoy": 1462,
+  "demAyer": 1273,
+  "demSemanaAnt": 1411
+ },
+ {
+  "fecha": "2022-02-23T04:30:00.000-0300",
+  "demHoy": 1461,
+  "demAyer": 1281,
+  "demSemanaAnt": 1411,
+  "tempHoy": 23.2,
+  "tempAyer": 22.4,
+  "tempSemanaAnt": 20.5
+ },
+ {
+  "fecha": "2022-02-23T04:35:00.000-0300",
+  "demHoy": 1454,
+  "demAyer": 1267,
+  "demSemanaAnt": 1410
+ },
+ {
+  "fecha": "2022-02-23T04:40:00.000-0300",
+  "demHoy": 1455,
+  "demAyer": 1274,
+  "demSemanaAnt": 1401
+ },
+ {
+  "fecha": "2022-02-23T04:45:00.000-0300",
+  "demHoy": 1445,
+  "demAyer": 1268,
+  "demSemanaAnt": 1396,
+  "tempHoy": 23.2,
+  "tempAyer": 22.3,
+  "tempSemanaAnt": 20.7
+ },
+ {
+  "fecha": "2022-02-23T04:50:00.000-0300",
+  "demHoy": 1431,
+  "demAyer": 1270,
+  "demSemanaAnt": 1394
+ },
+ {
+  "fecha": "2022-02-23T04:55:00.000-0300",
+  "demHoy": 1428,
+  "demAyer": 1264,
+  "demSemanaAnt": 1390
+ },
+ {
+  "fecha": "2022-02-23T05:00:00.000-0300",
+  "demHoy": 1425,
+  "demAyer": 1264,
+  "demSemanaAnt": 1388,
+  "demPrevista": 1372,
+  "tempHoy": 23.1,
+  "tempAyer": 22.3,
+  "tempSemanaAnt": 20
+ },
+ {
+  "fecha": "2022-02-23T05:05:00.000-0300",
+  "demHoy": 1428,
+  "demAyer": 1261,
+  "demSemanaAnt": 1380
+ },
+ {
+  "fecha": "2022-02-23T05:10:00.000-0300",
+  "demHoy": 1422,
+  "demAyer": 1263,
+  "demSemanaAnt": 1387
+ },
+ {
+  "fecha": "2022-02-23T05:15:00.000-0300",
+  "demHoy": 1420,
+  "demAyer": 1255,
+  "demSemanaAnt": 1383,
+  "tempHoy": 23.1,
+  "tempAyer": 22.3,
+  "tempSemanaAnt": 20.1
+ },
+ {
+  "fecha": "2022-02-23T05:20:00.000-0300",
+  "demHoy": 1422,
+  "demAyer": 1256,
+  "demSemanaAnt": 1373
+ },
+ {
+  "fecha": "2022-02-23T05:25:00.000-0300",
+  "demHoy": 1414,
+  "demAyer": 1251,
+  "demSemanaAnt": 1372
+ },
+ {
+  "fecha": "2022-02-23T05:30:00.000-0300",
+  "demHoy": 1407,
+  "demAyer": 1243,
+  "demSemanaAnt": 1366,
+  "tempHoy": 22.9,
+  "tempAyer": 22.4,
+  "tempSemanaAnt": 20.2
+ },
+ {
+  "fecha": "2022-02-23T05:35:00.000-0300",
+  "demHoy": 1402,
+  "demAyer": 1245,
+  "demSemanaAnt": 1358
+ },
+ {
+  "fecha": "2022-02-23T05:40:00.000-0300",
+  "demHoy": 1399,
+  "demAyer": 1247,
+  "demSemanaAnt": 1360
+ },
+ {
+  "fecha": "2022-02-23T05:45:00.000-0300",
+  "demHoy": 1398,
+  "demAyer": 1243,
+  "demSemanaAnt": 1347,
+  "tempHoy": 22.6,
+  "tempAyer": 22.3,
+  "tempSemanaAnt": 20.3
+ },
+ {
+  "fecha": "2022-02-23T05:50:00.000-0300",
+  "demHoy": 1392,
+  "demAyer": 1233,
+  "demSemanaAnt": 1344
+ },
+ {
+  "fecha": "2022-02-23T05:55:00.000-0300",
+  "demHoy": 1380,
+  "demAyer": 1234,
+  "demSemanaAnt": 1333
+ },
+ {
+  "fecha": "2022-02-23T06:00:00.000-0300",
+  "demHoy": 1383,
+  "demAyer": 1239,
+  "demSemanaAnt": 1335,
+  "demPrevista": 1334,
+  "tempHoy": 22.3,
+  "tempAyer": 22.2,
+  "tempSemanaAnt": 20.6
+ },
+ {
+  "fecha": "2022-02-23T06:05:00.000-0300",
+  "demHoy": 1387,
+  "demAyer": 1242,
+  "demSemanaAnt": 1338
+ },
+ {
+  "fecha": "2022-02-23T06:10:00.000-0300",
+  "demHoy": 1386,
+  "demAyer": 1239,
+  "demSemanaAnt": 1344
+ },
+ {
+  "fecha": "2022-02-23T06:15:00.000-0300",
+  "demHoy": 1398,
+  "demAyer": 1241,
+  "demSemanaAnt": 1336,
+  "tempHoy": 22.2,
+  "tempAyer": 22.1,
+  "tempSemanaAnt": 20.6
+ },
+ {
+  "fecha": "2022-02-23T06:20:00.000-0300",
+  "demHoy": 1384,
+  "demAyer": 1253,
+  "demSemanaAnt": 1326
+ },
+ {
+  "fecha": "2022-02-23T06:25:00.000-0300",
+  "demHoy": 1381,
+  "demAyer": 1251,
+  "demSemanaAnt": 1319
+ },
+ {
+  "fecha": "2022-02-23T06:30:00.000-0300",
+  "demHoy": 1368,
+  "demAyer": 1242,
+  "demSemanaAnt": 1309,
+  "tempHoy": 22,
+  "tempAyer": 22.1,
+  "tempSemanaAnt": 20.4
+ },
+ {
+  "fecha": "2022-02-23T06:35:00.000-0300",
+  "demHoy": 1360,
+  "demAyer": 1224,
+  "demSemanaAnt": 1288
+ },
+ {
+  "fecha": "2022-02-23T06:40:00.000-0300",
+  "demHoy": 1351,
+  "demAyer": 1221,
+  "demSemanaAnt": 1287
+ },
+ {
+  "fecha": "2022-02-23T06:45:00.000-0300",
+  "demHoy": 1319,
+  "demAyer": 1208,
+  "demSemanaAnt": 1266,
+  "tempHoy": 22,
+  "tempAyer": 22.1,
+  "tempSemanaAnt": 20.2
+ },
+ {
+  "fecha": "2022-02-23T06:50:00.000-0300",
+  "demHoy": 1317,
+  "demAyer": 1198,
+  "demSemanaAnt": 1251
+ },
+ {
+  "fecha": "2022-02-23T06:55:00.000-0300",
+  "demHoy": 1301,
+  "demAyer": 1187,
+  "demSemanaAnt": 1249
+ },
+ {
+  "fecha": "2022-02-23T07:00:00.000-0300",
+  "demHoy": 1287,
+  "demAyer": 1186,
+  "demSemanaAnt": 1254,
+  "demPrevista": 1265,
+  "tempHoy": 21.9,
+  "tempAyer": 21.9,
+  "tempSemanaAnt": 20.3
+ },
+ {
+  "fecha": "2022-02-23T07:05:00.000-0300",
+  "demHoy": 1301,
+  "demAyer": 1195,
+  "demSemanaAnt": 1251
+ },
+ {
+  "fecha": "2022-02-23T07:10:00.000-0300",
+  "demHoy": 1308,
+  "demAyer": 1191,
+  "demSemanaAnt": 1260
+ },
+ {
+  "fecha": "2022-02-23T07:15:00.000-0300",
+  "demHoy": 1309,
+  "demAyer": 1201,
+  "demSemanaAnt": 1256,
+  "tempHoy": 22.1,
+  "tempAyer": 22,
+  "tempSemanaAnt": 21.1
+ },
+ {
+  "fecha": "2022-02-23T07:20:00.000-0300",
+  "demHoy": 1300,
+  "demAyer": 1201,
+  "demSemanaAnt": 1262
+ },
+ {
+  "fecha": "2022-02-23T07:25:00.000-0300",
+  "demHoy": 1312,
+  "demAyer": 1201,
+  "demSemanaAnt": 1257
+ },
+ {
+  "fecha": "2022-02-23T07:30:00.000-0300",
+  "demHoy": 1315,
+  "demAyer": 1211,
+  "demSemanaAnt": 1263,
+  "tempHoy": 22.5,
+  "tempAyer": 22.1,
+  "tempSemanaAnt": 21.5
+ },
+ {
+  "fecha": "2022-02-23T07:35:00.000-0300",
+  "demHoy": 1316,
+  "demAyer": 1213,
+  "demSemanaAnt": 1271
+ },
+ {
+  "fecha": "2022-02-23T07:40:00.000-0300",
+  "demHoy": 1317,
+  "demAyer": 1218,
+  "demSemanaAnt": 1268
+ },
+ {
+  "fecha": "2022-02-23T07:45:00.000-0300",
+  "demHoy": 1307,
+  "demAyer": 1208,
+  "demSemanaAnt": 1267,
+  "tempHoy": 23.1,
+  "tempAyer": 22.5,
+  "tempSemanaAnt": 21.9
+ },
+ {
+  "fecha": "2022-02-23T07:50:00.000-0300",
+  "demHoy": 1312,
+  "demAyer": 1206,
+  "demSemanaAnt": 1281
+ },
+ {
+  "fecha": "2022-02-23T07:55:00.000-0300",
+  "demHoy": 1324,
+  "demAyer": 1027,
+  "demSemanaAnt": 1280
+ },
+ {
+  "fecha": "2022-02-23T08:00:00.000-0300",
+  "demHoy": 1325,
+  "demAyer": 1033,
+  "demSemanaAnt": 1290,
+  "demPrevista": 1289,
+  "tempHoy": 23.6,
+  "tempAyer": 23.1,
+  "tempSemanaAnt": 22.5,
+  "tempPrevista": 12.5
+ },
+ {
+  "fecha": "2022-02-23T08:05:00.000-0300",
+  "demHoy": 1348,
+  "demAyer": 1038,
+  "demSemanaAnt": 1294
+ },
+ {
+  "fecha": "2022-02-23T08:10:00.000-0300",
+  "demHoy": 1348,
+  "demAyer": 1153,
+  "demSemanaAnt": 1308
+ },
+ {
+  "fecha": "2022-02-23T08:15:00.000-0300",
+  "demHoy": 1360,
+  "demAyer": 1148,
+  "demSemanaAnt": 1318,
+  "tempHoy": 24.5,
+  "tempAyer": 23.7,
+  "tempSemanaAnt": 23.3
+ },
+ {
+  "fecha": "2022-02-23T08:20:00.000-0300",
+  "demHoy": 1372,
+  "demAyer": 1147,
+  "demSemanaAnt": 1321
+ },
+ {
+  "fecha": "2022-02-23T08:25:00.000-0300",
+  "demHoy": 1376,
+  "demAyer": 1189,
+  "demSemanaAnt": 1324
+ },
+ {
+  "fecha": "2022-02-23T08:30:00.000-0300",
+  "demHoy": 1367,
+  "demAyer": 1205,
+  "demSemanaAnt": 1333,
+  "tempHoy": 25.3,
+  "tempAyer": 24.5,
+  "tempSemanaAnt": 24.4
+ },
+ {
+  "fecha": "2022-02-23T08:35:00.000-0300",
+  "demHoy": 1374,
+  "demAyer": 1214,
+  "demSemanaAnt": 1341
+ },
+ {
+  "fecha": "2022-02-23T08:40:00.000-0300",
+  "demHoy": 1370,
+  "demAyer": 1220,
+  "demSemanaAnt": 1351
+ },
+ {
+  "fecha": "2022-02-23T08:45:00.000-0300",
+  "demHoy": 1369,
+  "demAyer": 1235,
+  "demSemanaAnt": 1354,
+  "tempHoy": 26.2,
+  "tempAyer": 25.3,
+  "tempSemanaAnt": 25.5
+ },
+ {
+  "fecha": "2022-02-23T08:50:00.000-0300",
+  "demHoy": 1388,
+  "demAyer": 1235,
+  "demSemanaAnt": 1356
+ },
+ {
+  "fecha": "2022-02-23T08:55:00.000-0300",
+  "demHoy": 1389,
+  "demAyer": 1235,
+  "demSemanaAnt": 1367
+ },
+ {
+  "fecha": "2022-02-23T09:00:00.000-0300",
+  "demHoy": 1398,
+  "demAyer": 1230,
+  "demSemanaAnt": 1373,
+  "demPrevista": 1350,
+  "tempHoy": 27.3,
+  "tempAyer": 26.1,
+  "tempSemanaAnt": 26.7
+ },
+ {
+  "fecha": "2022-02-23T09:05:00.000-0300",
+  "demHoy": 1393,
+  "demAyer": 1237,
+  "demSemanaAnt": 1382
+ },
+ {
+  "fecha": "2022-02-23T09:10:00.000-0300",
+  "demHoy": 1358,
+  "demAyer": 1241,
+  "demSemanaAnt": 1394
+ },
+ {
+  "fecha": "2022-02-23T09:15:00.000-0300",
+  "demHoy": 1372,
+  "demAyer": 1247,
+  "demSemanaAnt": 1397,
+  "tempHoy": 28,
+  "tempAyer": 26.7,
+  "tempSemanaAnt": 27.6
+ },
+ {
+  "fecha": "2022-02-23T09:20:00.000-0300",
+  "demHoy": 1377,
+  "demAyer": 1254,
+  "demSemanaAnt": 1408
+ },
+ {
+  "fecha": "2022-02-23T09:25:00.000-0300",
+  "demHoy": 1388,
+  "demAyer": 1247,
+  "demSemanaAnt": 1412
+ },
+ {
+  "fecha": "2022-02-23T09:30:00.000-0300",
+  "demHoy": 1394,
+  "demAyer": 1250,
+  "demSemanaAnt": 1414,
+  "tempHoy": 28.7,
+  "tempAyer": 27,
+  "tempSemanaAnt": 28.4
+ },
+ {
+  "fecha": "2022-02-23T09:35:00.000-0300",
+  "demHoy": 1399,
+  "demAyer": 1264,
+  "demSemanaAnt": 1431
+ },
+ {
+  "fecha": "2022-02-23T09:40:00.000-0300",
+  "demHoy": 1399,
+  "demAyer": 1267,
+  "demSemanaAnt": 1438
+ },
+ {
+  "fecha": "2022-02-23T09:45:00.000-0300",
+  "demHoy": 1412,
+  "demAyer": 1266,
+  "demSemanaAnt": 1406,
+  "tempHoy": 29.6,
+  "tempAyer": 27.4,
+  "tempSemanaAnt": 29.3
+ },
+ {
+  "fecha": "2022-02-23T09:50:00.000-0300",
+  "demHoy": 1423,
+  "demAyer": 1263,
+  "demSemanaAnt": 1416
+ },
+ {
+  "fecha": "2022-02-23T09:55:00.000-0300",
+  "demHoy": 1432,
+  "demAyer": 1277,
+  "demSemanaAnt": 1413
+ },
+ {
+  "fecha": "2022-02-23T10:00:00.000-0300",
+  "demHoy": 1433,
+  "demAyer": 1280,
+  "demSemanaAnt": 1412,
+  "demPrevista": 1377,
+  "tempHoy": 30.2,
+  "tempAyer": 28,
+  "tempSemanaAnt": 30.2
+ },
+ {
+  "fecha": "2022-02-23T10:05:00.000-0300",
+  "demHoy": 1438,
+  "demAyer": 1280,
+  "demSemanaAnt": 1406
+ },
+ {
+  "fecha": "2022-02-23T10:10:00.000-0300",
+  "demHoy": 1448,
+  "demAyer": 1287,
+  "demSemanaAnt": 1431
+ },
+ {
+  "fecha": "2022-02-23T10:15:00.000-0300",
+  "demHoy": 1464,
+  "demAyer": 1290,
+  "demSemanaAnt": 1429,
+  "tempHoy": 30.9,
+  "tempAyer": 28.7,
+  "tempSemanaAnt": 30.8
+ },
+ {
+  "fecha": "2022-02-23T10:20:00.000-0300",
+  "demHoy": 1476,
+  "demAyer": 1309,
+  "demSemanaAnt": 1443
+ },
+ {
+  "fecha": "2022-02-23T10:25:00.000-0300",
+  "demHoy": 1492,
+  "demAyer": 1307,
+  "demSemanaAnt": 1460
+ },
+ {
+  "fecha": "2022-02-23T10:30:00.000-0300",
+  "demHoy": 1500,
+  "demAyer": 1320,
+  "demSemanaAnt": 1461,
+  "tempHoy": 31.7,
+  "tempAyer": 28.9,
+  "tempSemanaAnt": 31.5
+ },
+ {
+  "fecha": "2022-02-23T10:35:00.000-0300",
+  "demHoy": 1507,
+  "demAyer": 1325,
+  "demSemanaAnt": 1482
+ },
+ {
+  "fecha": "2022-02-23T10:40:00.000-0300",
+  "demHoy": 1518,
+  "demAyer": 1336,
+  "demSemanaAnt": 1498
+ },
+ {
+  "fecha": "2022-02-23T10:45:00.000-0300",
+  "demHoy": 1522,
+  "demAyer": 1335,
+  "demSemanaAnt": 1499,
+  "tempHoy": 32.2,
+  "tempAyer": 29.5,
+  "tempSemanaAnt": 32
+ },
+ {
+  "fecha": "2022-02-23T10:50:00.000-0300",
+  "demHoy": 1536,
+  "demAyer": 1343,
+  "demSemanaAnt": 1508
+ },
+ {
+  "fecha": "2022-02-23T10:55:00.000-0300",
+  "demHoy": 1537,
+  "demAyer": 1355,
+  "demSemanaAnt": 1515
+ },
+ {
+  "fecha": "2022-02-23T11:00:00.000-0300",
+  "demHoy": 1540,
+  "demAyer": 1353,
+  "demSemanaAnt": 1522,
+  "demPrevista": 1490,
+  "tempHoy": 33.3,
+  "tempAyer": 30.3,
+  "tempSemanaAnt": 32.6
+ },
+ {
+  "fecha": "2022-02-23T11:05:00.000-0300",
+  "demHoy": 1550,
+  "demAyer": 1351,
+  "demSemanaAnt": 1532
+ },
+ {
+  "fecha": "2022-02-23T11:10:00.000-0300",
+  "demHoy": 1555,
+  "demAyer": 1334,
+  "demSemanaAnt": 1542
+ },
+ {
+  "fecha": "2022-02-23T11:15:00.000-0300",
+  "demHoy": 1564,
+  "demAyer": 1350,
+  "demSemanaAnt": 1557,
+  "tempHoy": 33.1,
+  "tempAyer": 30.7,
+  "tempSemanaAnt": 33.3
+ },
+ {
+  "fecha": "2022-02-23T11:20:00.000-0300",
+  "demHoy": 1583,
+  "demAyer": 1364,
+  "demSemanaAnt": 1569
+ },
+ {
+  "fecha": "2022-02-23T11:25:00.000-0300",
+  "demHoy": 1602,
+  "demAyer": 1376,
+  "demSemanaAnt": 1574
+ },
+ {
+  "fecha": "2022-02-23T11:30:00.000-0300",
+  "demHoy": 1604,
+  "demAyer": 1388,
+  "demSemanaAnt": 1588,
+  "tempHoy": 33.6,
+  "tempAyer": 31.3,
+  "tempSemanaAnt": 33.8
+ },
+ {
+  "fecha": "2022-02-23T11:35:00.000-0300",
+  "demHoy": 1613,
+  "demAyer": 1394,
+  "demSemanaAnt": 1606
+ },
+ {
+  "fecha": "2022-02-23T11:40:00.000-0300",
+  "demHoy": 1631,
+  "demAyer": 1402,
+  "demSemanaAnt": 1629
+ },
+ {
+  "fecha": "2022-02-23T11:45:00.000-0300",
+  "demHoy": 1638,
+  "demAyer": 1414,
+  "demSemanaAnt": 1648,
+  "tempHoy": 34.1,
+  "tempAyer": 31.4,
+  "tempSemanaAnt": 34.7
+ },
+ {
+  "fecha": "2022-02-23T11:50:00.000-0300",
+  "demHoy": 1659,
+  "demAyer": 1430,
+  "demSemanaAnt": 1661
+ },
+ {
+  "fecha": "2022-02-23T11:55:00.000-0300",
+  "demHoy": 1666,
+  "demAyer": 1437,
+  "demSemanaAnt": 1677
+ },
+ {
+  "fecha": "2022-02-23T12:00:00.000-0300",
+  "demHoy": 1687,
+  "demAyer": 1443,
+  "demSemanaAnt": 1676,
+  "demPrevista": 1632,
+  "tempHoy": 34.3,
+  "tempAyer": 32.5,
+  "tempSemanaAnt": 35.5
+ },
+ {
+  "fecha": "2022-02-23T12:05:00.000-0300",
+  "demHoy": 1691,
+  "demAyer": 1437,
+  "demSemanaAnt": 1681
+ },
+ {
+  "fecha": "2022-02-23T12:10:00.000-0300",
+  "demHoy": 1722,
+  "demAyer": 1450,
+  "demSemanaAnt": 1699
+ },
+ {
+  "fecha": "2022-02-23T12:15:00.000-0300",
+  "demHoy": 1723,
+  "demAyer": 1464,
+  "demSemanaAnt": 1718,
+  "tempHoy": 34.8,
+  "tempAyer": 32.6,
+  "tempSemanaAnt": 36.1
+ },
+ {
+  "fecha": "2022-02-23T12:20:00.000-0300",
+  "demHoy": 1747,
+  "demAyer": 1490,
+  "demSemanaAnt": 1746
+ },
+ {
+  "fecha": "2022-02-23T12:25:00.000-0300",
+  "demHoy": 1779,
+  "demAyer": 1504,
+  "demSemanaAnt": 1758
+ },
+ {
+  "fecha": "2022-02-23T12:30:00.000-0300",
+  "demHoy": 1793,
+  "demAyer": 1520,
+  "demSemanaAnt": 1776,
+  "tempHoy": 35.3,
+  "tempAyer": 32.6,
+  "tempSemanaAnt": 36.4
+ },
+ {
+  "fecha": "2022-02-23T12:35:00.000-0300",
+  "demHoy": 1806,
+  "demAyer": 1534,
+  "demSemanaAnt": 1798
+ },
+ {
+  "fecha": "2022-02-23T12:40:00.000-0300",
+  "demHoy": 1823,
+  "demAyer": 1548,
+  "demSemanaAnt": 1821
+ },
+ {
+  "fecha": "2022-02-23T12:45:00.000-0300",
+  "demHoy": 1853,
+  "demAyer": 1572,
+  "demSemanaAnt": 1846,
+  "tempHoy": 35.4,
+  "tempAyer": 32.8,
+  "tempSemanaAnt": 36.1
+ },
+ {
+  "fecha": "2022-02-23T12:50:00.000-0300",
+  "demHoy": 1866,
+  "demAyer": 1590,
+  "demSemanaAnt": 1867
+ },
+ {
+  "fecha": "2022-02-23T12:55:00.000-0300",
+  "demHoy": 1894,
+  "demAyer": 1619,
+  "demSemanaAnt": 1901
+ },
+ {
+  "fecha": "2022-02-23T13:00:00.000-0300",
+  "demHoy": 1930,
+  "demAyer": 1636,
+  "demSemanaAnt": 1912,
+  "demPrevista": 1860,
+  "tempHoy": 36,
+  "tempAyer": 33.5,
+  "tempSemanaAnt": 36.3
+ },
+ {
+  "fecha": "2022-02-23T13:05:00.000-0300",
+  "demHoy": 1946,
+  "demAyer": 1666,
+  "demSemanaAnt": 1942
+ },
+ {
+  "fecha": "2022-02-23T13:10:00.000-0300",
+  "demHoy": 1972,
+  "demAyer": 1686,
+  "demSemanaAnt": 1966
+ },
+ {
+  "fecha": "2022-02-23T13:15:00.000-0300",
+  "demHoy": 2002,
+  "demAyer": 1711,
+  "demSemanaAnt": 1997,
+  "tempHoy": 36.1,
+  "tempAyer": 33.7,
+  "tempSemanaAnt": 36.8
+ },
+ {
+  "fecha": "2022-02-23T13:20:00.000-0300",
+  "demHoy": 2029,
+  "demAyer": 1738,
+  "demSemanaAnt": 2020
+ },
+ {
+  "fecha": "2022-02-23T13:25:00.000-0300",
+  "demHoy": 2060,
+  "demAyer": 1760,
+  "demSemanaAnt": 2042
+ },
+ {
+  "fecha": "2022-02-23T13:30:00.000-0300",
+  "demHoy": 2077,
+  "demAyer": 1763,
+  "demSemanaAnt": 2059,
+  "tempHoy": 35.9,
+  "tempAyer": 34,
+  "tempSemanaAnt": 37
+ },
+ {
+  "fecha": "2022-02-23T13:35:00.000-0300",
+  "demHoy": 2101,
+  "demAyer": 1778,
+  "demSemanaAnt": 2097
+ },
+ {
+  "fecha": "2022-02-23T13:40:00.000-0300",
+  "demHoy": 2111,
+  "demAyer": 1811,
+  "demSemanaAnt": 2117
+ },
+ {
+  "fecha": "2022-02-23T13:45:00.000-0300",
+  "demHoy": 2119,
+  "demAyer": 1817,
+  "demSemanaAnt": 2148,
+  "tempHoy": 35.9,
+  "tempAyer": 34.2,
+  "tempSemanaAnt": 37.4
+ },
+ {
+  "fecha": "2022-02-23T13:50:00.000-0300",
+  "demHoy": 2134,
+  "demAyer": 1833,
+  "demSemanaAnt": 2172
+ },
+ {
+  "fecha": "2022-02-23T13:55:00.000-0300",
+  "demHoy": 2164,
+  "demAyer": 1847,
+  "demSemanaAnt": 2187
+ },
+ {
+  "fecha": "2022-02-23T14:00:00.000-0300",
+  "demHoy": 2188,
+  "demAyer": 1870,
+  "demSemanaAnt": 2193,
+  "demPrevista": 2144,
+  "tempHoy": 36.2,
+  "tempAyer": 34.6,
+  "tempSemanaAnt": 37.7
+ },
+ {
+  "fecha": "2022-02-23T14:05:00.000-0300",
+  "demHoy": 2193,
+  "demAyer": 1877,
+  "demSemanaAnt": 2217
+ },
+ {
+  "fecha": "2022-02-23T14:10:00.000-0300",
+  "demHoy": 2214,
+  "demAyer": 1884,
+  "demSemanaAnt": 2228
+ },
+ {
+  "fecha": "2022-02-23T14:15:00.000-0300",
+  "demHoy": 2225,
+  "demAyer": 1906,
+  "demSemanaAnt": 2248,
+  "tempHoy": 36.8,
+  "tempAyer": 35,
+  "tempSemanaAnt": 37.7
+ },
+ {
+  "fecha": "2022-02-23T14:20:00.000-0300",
+  "demHoy": 2238,
+  "demAyer": 1916,
+  "demSemanaAnt": 2227
+ },
+ {
+  "fecha": "2022-02-23T14:25:00.000-0300",
+  "demHoy": 2257,
+  "demAyer": 1926,
+  "demSemanaAnt": 2240
+ },
+ {
+  "fecha": "2022-02-23T14:30:00.000-0300",
+  "demHoy": 2285,
+  "demAyer": 1928,
+  "demSemanaAnt": 2242,
+  "tempHoy": 37.2,
+  "tempAyer": 34.8,
+  "tempSemanaAnt": 37.7
+ },
+ {
+  "fecha": "2022-02-23T14:35:00.000-0300",
+  "demHoy": 2286,
+  "demAyer": 1949,
+  "demSemanaAnt": 2232
+ },
+ {
+  "fecha": "2022-02-23T14:40:00.000-0300",
+  "demHoy": 2294,
+  "demAyer": 1949,
+  "demSemanaAnt": 2235
+ },
+ {
+  "fecha": "2022-02-23T14:45:00.000-0300",
+  "demHoy": 2301,
+  "demAyer": 1960,
+  "demSemanaAnt": 2253,
+  "tempHoy": 37.1,
+  "tempAyer": 35.7,
+  "tempSemanaAnt": 38.3
+ },
+ {
+  "fecha": "2022-02-23T14:50:00.000-0300",
+  "demHoy": 2284,
+  "demAyer": 1958,
+  "demSemanaAnt": 2256
+ },
+ {
+  "fecha": "2022-02-23T14:55:00.000-0300",
+  "demHoy": 2295,
+  "demAyer": 1964,
+  "demSemanaAnt": 2257
+ },
+ {
+  "fecha": "2022-02-23T15:00:00.000-0300",
+  "demHoy": 2290,
+  "demAyer": 1986,
+  "demSemanaAnt": 2272,
+  "demPrevista": 2231,
+  "tempHoy": 37.6,
+  "tempAyer": 35.5,
+  "tempSemanaAnt": 38.3,
+  "tempPrevista": 19
+ },
+ {
+  "fecha": "2022-02-23T15:05:00.000-0300",
+  "demHoy": 2297,
+  "demAyer": 1990,
+  "demSemanaAnt": 2276
+ },
+ {
+  "fecha": "2022-02-23T15:10:00.000-0300",
+  "demHoy": 2303,
+  "demAyer": 2024,
+  "demSemanaAnt": 2242
+ },
+ {
+  "fecha": "2022-02-23T15:15:00.000-0300",
+  "demHoy": 2308,
+  "demAyer": 2027,
+  "demSemanaAnt": 2215,
+  "tempHoy": 37.6,
+  "tempAyer": 35.2,
+  "tempSemanaAnt": 38.4
+ },
+ {
+  "fecha": "2022-02-23T15:20:00.000-0300",
+  "demHoy": 2298,
+  "demAyer": 2034,
+  "demSemanaAnt": 2240
+ },
+ {
+  "fecha": "2022-02-23T15:25:00.000-0300",
+  "demHoy": 2309,
+  "demAyer": 2033,
+  "demSemanaAnt": 2254
+ },
+ {
+  "fecha": "2022-02-23T15:30:00.000-0300",
+  "demHoy": 2306,
+  "demAyer": 2032,
+  "demSemanaAnt": 2291,
+  "tempHoy": 37.6,
+  "tempAyer": 35.6,
+  "tempSemanaAnt": 38.5
+ },
+ {
+  "fecha": "2022-02-23T15:35:00.000-0300",
+  "demHoy": 2304,
+  "demAyer": 2029,
+  "demSemanaAnt": 2276
+ },
+ {
+  "fecha": "2022-02-23T15:40:00.000-0300",
+  "demHoy": 2298,
+  "demAyer": 2022,
+  "demSemanaAnt": 2261
+ },
+ {
+  "fecha": "2022-02-23T15:45:00.000-0300",
+  "demHoy": 2278,
+  "demAyer": 2018,
+  "demSemanaAnt": 2246,
+  "tempHoy": 37.6,
+  "tempAyer": 35.2,
+  "tempSemanaAnt": 38.5
+ },
+ {
+  "fecha": "2022-02-23T15:50:00.000-0300",
+  "demHoy": 2267,
+  "demAyer": 2019,
+  "demSemanaAnt": 2239
+ },
+ {
+  "fecha": "2022-02-23T15:55:00.000-0300",
+  "demHoy": 2269,
+  "demAyer": 2015,
+  "demSemanaAnt": 2251
+ },
+ {
+  "fecha": "2022-02-23T16:00:00.000-0300",
+  "demHoy": 2254,
+  "demAyer": 2005,
+  "demSemanaAnt": 2245,
+  "demPrevista": 2213,
+  "tempHoy": 37.8,
+  "tempAyer": 35.1,
+  "tempSemanaAnt": 38
+ },
+ {
+  "fecha": "2022-02-23T16:05:00.000-0300",
+  "demHoy": 2252,
+  "demAyer": 1993,
+  "demSemanaAnt": 2240
+ },
+ {
+  "fecha": "2022-02-23T16:10:00.000-0300",
+  "demHoy": 2244,
+  "demAyer": 1994,
+  "demSemanaAnt": 2239
+ },
+ {
+  "fecha": "2022-02-23T16:15:00.000-0300",
+  "demHoy": 2234,
+  "demAyer": 1981,
+  "demSemanaAnt": 2224,
+  "tempHoy": 37.8,
+  "tempAyer": 35.3,
+  "tempSemanaAnt": 38.2
+ },
+ {
+  "fecha": "2022-02-23T16:20:00.000-0300",
+  "demHoy": 2226,
+  "demAyer": 1974,
+  "demSemanaAnt": 2204
+ },
+ {
+  "fecha": "2022-02-23T16:25:00.000-0300",
+  "demHoy": 2216,
+  "demAyer": 1975,
+  "demSemanaAnt": 2194
+ },
+ {
+  "fecha": "2022-02-23T16:30:00.000-0300",
+  "demHoy": 2206,
+  "demAyer": 1964,
+  "demSemanaAnt": 2204,
+  "tempHoy": 37.8,
+  "tempAyer": 35.1,
+  "tempSemanaAnt": 38.2
+ },
+ {
+  "fecha": "2022-02-23T16:35:00.000-0300",
+  "demHoy": 2206,
+  "demAyer": 1965,
+  "demSemanaAnt": 2182
+ },
+ {
+  "fecha": "2022-02-23T16:40:00.000-0300",
+  "demHoy": 2191,
+  "demAyer": 1957,
+  "demSemanaAnt": 2186
+ },
+ {
+  "fecha": "2022-02-23T16:45:00.000-0300",
+  "demHoy": 2179,
+  "demAyer": 1940,
+  "demSemanaAnt": 2180,
+  "tempHoy": 37.6,
+  "tempAyer": 35.5,
+  "tempSemanaAnt": 38.3
+ },
+ {
+  "fecha": "2022-02-23T16:50:00.000-0300",
+  "demHoy": 2162,
+  "demAyer": 1937,
+  "demSemanaAnt": 2160
+ },
+ {
+  "fecha": "2022-02-23T16:55:00.000-0300",
+  "demHoy": 2149,
+  "demAyer": 1922,
+  "demSemanaAnt": 2147
+ },
+ {
+  "fecha": "2022-02-23T17:00:00.000-0300",
+  "demHoy": 2137,
+  "demAyer": 1905,
+  "demSemanaAnt": 2136,
+  "demPrevista": 2082,
+  "tempHoy": 37.7,
+  "tempAyer": 35.2,
+  "tempSemanaAnt": 37.9
+ },
+ {
+  "fecha": "2022-02-23T17:05:00.000-0300",
+  "demHoy": 2113,
+  "demAyer": 1898,
+  "demSemanaAnt": 2117
+ },
+ {
+  "fecha": "2022-02-23T17:10:00.000-0300",
+  "demHoy": 2120,
+  "demAyer": 1883,
+  "demSemanaAnt": 2114
+ },
+ {
+  "fecha": "2022-02-23T17:15:00.000-0300",
+  "demHoy": 2116,
+  "demAyer": 1865,
+  "demSemanaAnt": 2087,
+  "tempHoy": 37.6,
+  "tempAyer": 35.2,
+  "tempSemanaAnt": 37.6
+ },
+ {
+  "fecha": "2022-02-23T17:20:00.000-0300",
+  "demHoy": 2093,
+  "demAyer": 1846,
+  "demSemanaAnt": 2078
+ },
+ {
+  "fecha": "2022-02-23T17:25:00.000-0300",
+  "demHoy": 2082,
+  "demAyer": 1828,
+  "demSemanaAnt": 2068
+ },
+ {
+  "fecha": "2022-02-23T17:30:00.000-0300",
+  "demHoy": 2070,
+  "demAyer": 1808,
+  "demSemanaAnt": 2050,
+  "tempHoy": 37.1,
+  "tempAyer": 35,
+  "tempSemanaAnt": 37.6
+ },
+ {
+  "fecha": "2022-02-23T17:35:00.000-0300",
+  "demHoy": 2050,
+  "demAyer": 1795,
+  "demSemanaAnt": 2035
+ },
+ {
+  "fecha": "2022-02-23T17:40:00.000-0300",
+  "demHoy": 2027,
+  "demAyer": 1783,
+  "demSemanaAnt": 2012
+ },
+ {
+  "fecha": "2022-02-23T17:45:00.000-0300",
+  "demHoy": 2008,
+  "demAyer": 1758,
+  "demSemanaAnt": 1997,
+  "tempHoy": 37,
+  "tempAyer": 34.7,
+  "tempSemanaAnt": 37.2
+ },
+ {
+  "fecha": "2022-02-23T17:50:00.000-0300",
+  "demHoy": 1997,
+  "demAyer": 1743,
+  "demSemanaAnt": 1974
+ },
+ {
+  "fecha": "2022-02-23T17:55:00.000-0300",
+  "demHoy": 1973,
+  "demAyer": 1735,
+  "demSemanaAnt": 1943
+ },
+ {
+  "fecha": "2022-02-23T18:00:00.000-0300",
+  "demHoy": 1942,
+  "demAyer": 1704,
+  "demSemanaAnt": 1914,
+  "demPrevista": 1864,
+  "tempHoy": 36.8,
+  "tempAyer": 34.4,
+  "tempSemanaAnt": 36.9
+ },
+ {
+  "fecha": "2022-02-23T18:05:00.000-0300",
+  "demHoy": 1920,
+  "demAyer": 1682,
+  "demSemanaAnt": 1904
+ },
+ {
+  "fecha": "2022-02-23T18:10:00.000-0300",
+  "demHoy": 1898,
+  "demAyer": 1676,
+  "demSemanaAnt": 1879
+ },
+ {
+  "fecha": "2022-02-23T18:15:00.000-0300",
+  "demHoy": 1883,
+  "demAyer": 1663,
+  "demSemanaAnt": 1870,
+  "tempHoy": 36.7,
+  "tempAyer": 34.2,
+  "tempSemanaAnt": 36.6
+ },
+ {
+  "fecha": "2022-02-23T18:20:00.000-0300",
+  "demHoy": 1868,
+  "demAyer": 1641,
+  "demSemanaAnt": 1857
+ },
+ {
+  "fecha": "2022-02-23T18:25:00.000-0300",
+  "demHoy": 1860,
+  "demAyer": 1635,
+  "demSemanaAnt": 1846
+ },
+ {
+  "fecha": "2022-02-23T18:30:00.000-0300",
+  "demHoy": 1838,
+  "demAyer": 1616,
+  "demSemanaAnt": 1835,
+  "tempHoy": 36.3,
+  "tempAyer": 33.8,
+  "tempSemanaAnt": 36.4
+ },
+ {
+  "fecha": "2022-02-23T18:35:00.000-0300",
+  "demHoy": 1838,
+  "demAyer": 1600,
+  "demSemanaAnt": 1816
+ },
+ {
+  "fecha": "2022-02-23T18:40:00.000-0300",
+  "demHoy": 1810,
+  "demAyer": 1588,
+  "demSemanaAnt": 1808
+ },
+ {
+  "fecha": "2022-02-23T18:45:00.000-0300",
+  "demHoy": 1802,
+  "demAyer": 1584,
+  "demSemanaAnt": 1785,
+  "tempHoy": 35.7,
+  "tempAyer": 33.4,
+  "tempSemanaAnt": 36.1
+ },
+ {
+  "fecha": "2022-02-23T18:50:00.000-0300",
+  "demHoy": 1788,
+  "demAyer": 1589,
+  "demSemanaAnt": 1772
+ },
+ {
+  "fecha": "2022-02-23T18:55:00.000-0300",
+  "demHoy": 1776,
+  "demAyer": 1572,
+  "demSemanaAnt": 1758
+ },
+ {
+  "fecha": "2022-02-23T19:00:00.000-0300",
+  "demHoy": 1752,
+  "demAyer": 1563,
+  "demSemanaAnt": 1743,
+  "demPrevista": 1695,
+  "tempHoy": 35.1,
+  "tempAyer": 33,
+  "tempSemanaAnt": 35.8
+ },
+ {
+  "fecha": "2022-02-23T19:05:00.000-0300",
+  "demHoy": 1728,
+  "demAyer": 1555,
+  "demSemanaAnt": 1736
+ },
+ {
+  "fecha": "2022-02-23T19:10:00.000-0300",
+  "demHoy": 1731,
+  "demAyer": 1548,
+  "demSemanaAnt": 1725
+ },
+ {
+  "fecha": "2022-02-23T19:15:00.000-0300",
+  "demHoy": 1731,
+  "demAyer": 1544,
+  "demSemanaAnt": 1723,
+  "tempHoy": 34.7,
+  "tempAyer": 32.3,
+  "tempSemanaAnt": 35.2
+ },
+ {
+  "fecha": "2022-02-23T19:20:00.000-0300",
+  "demHoy": 1732,
+  "demAyer": 1557,
+  "demSemanaAnt": 1721
+ },
+ {
+  "fecha": "2022-02-23T19:25:00.000-0300",
+  "demHoy": 1732,
+  "demAyer": 1566,
+  "demSemanaAnt": 1724
+ },
+ {
+  "fecha": "2022-02-23T19:30:00.000-0300",
+  "demHoy": 1738,
+  "demAyer": 1569,
+  "demSemanaAnt": 1726,
+  "tempHoy": 34.3,
+  "tempAyer": 31.7,
+  "tempSemanaAnt": 34.7
+ },
+ {
+  "fecha": "2022-02-23T19:35:00.000-0300",
+  "demHoy": 1750,
+  "demAyer": 1581,
+  "demSemanaAnt": 1740
+ },
+ {
+  "fecha": "2022-02-23T19:40:00.000-0300",
+  "demHoy": 1767,
+  "demAyer": 1587,
+  "demSemanaAnt": 1760
+ },
+ {
+  "fecha": "2022-02-23T19:45:00.000-0300",
+  "demHoy": 1789,
+  "demAyer": 1605,
+  "demSemanaAnt": 1762,
+  "tempHoy": 33.7,
+  "tempAyer": 31,
+  "tempSemanaAnt": 33.8
+ },
+ {
+  "fecha": "2022-02-23T19:50:00.000-0300",
+  "demHoy": 1799,
+  "demAyer": 1625,
+  "demSemanaAnt": 1780
+ },
+ {
+  "fecha": "2022-02-23T19:55:00.000-0300",
+  "demHoy": 1809,
+  "demAyer": 1643,
+  "demSemanaAnt": 1800
+ },
+ {
+  "fecha": "2022-02-23T20:00:00.000-0300",
+  "demHoy": 1832,
+  "demAyer": 1657,
+  "demSemanaAnt": 1805,
+  "demPrevista": 1796,
+  "tempHoy": 33.3,
+  "tempAyer": 30.5,
+  "tempSemanaAnt": 33.5
+ },
+ {
+  "fecha": "2022-02-23T20:05:00.000-0300",
+  "demHoy": 1836,
+  "demAyer": 1661,
+  "demSemanaAnt": 1806
+ },
+ {
+  "fecha": "2022-02-23T20:10:00.000-0300",
+  "demHoy": 1843,
+  "demAyer": 1675,
+  "demSemanaAnt": 1829
+ },
+ {
+  "fecha": "2022-02-23T20:15:00.000-0300",
+  "demHoy": 1859,
+  "demAyer": 1690,
+  "demSemanaAnt": 1854,
+  "tempHoy": 32.8,
+  "tempAyer": 30,
+  "tempSemanaAnt": 33
+ },
+ {
+  "fecha": "2022-02-23T20:20:00.000-0300",
+  "demHoy": 1876,
+  "demAyer": 1688,
+  "demSemanaAnt": 1871
+ },
+ {
+  "fecha": "2022-02-23T20:25:00.000-0300",
+  "demHoy": 1888,
+  "demAyer": 1705,
+  "demSemanaAnt": 1868
+ },
+ {
+  "fecha": "2022-02-23T20:30:00.000-0300",
+  "demHoy": 1885,
+  "demAyer": 1713,
+  "demSemanaAnt": 1870,
+  "tempHoy": 32.5,
+  "tempAyer": 29.7,
+  "tempSemanaAnt": 32.5
+ },
+ {
+  "fecha": "2022-02-23T20:35:00.000-0300",
+  "demHoy": 1898,
+  "demAyer": 1710,
+  "demSemanaAnt": 1873
+ },
+ {
+  "fecha": "2022-02-23T20:40:00.000-0300",
+  "demHoy": 1907,
+  "demAyer": 1722,
+  "demSemanaAnt": 1879
+ },
+ {
+  "fecha": "2022-02-23T20:45:00.000-0300",
+  "demHoy": 1909,
+  "demAyer": 1720,
+  "demSemanaAnt": 1879,
+  "tempHoy": 31.8,
+  "tempAyer": 29.1,
+  "tempSemanaAnt": 31.4
+ },
+ {
+  "fecha": "2022-02-23T20:50:00.000-0300",
+  "demHoy": 1924,
+  "demAyer": 1725,
+  "demSemanaAnt": 1894
+ },
+ {
+  "fecha": "2022-02-23T20:55:00.000-0300",
+  "demHoy": 1932,
+  "demAyer": 1734,
+  "demSemanaAnt": 1893
+ },
+ {
+  "fecha": "2022-02-23T21:00:00.000-0300",
+  "demHoy": 1928,
+  "demAyer": 1736,
+  "demSemanaAnt": 1889,
+  "demPrevista": 1846,
+  "tempHoy": 31.5,
+  "tempAyer": 28.7,
+  "tempSemanaAnt": 30.3
+ },
+ {
+  "fecha": "2022-02-23T21:05:00.000-0300",
+  "demHoy": 1933,
+  "demAyer": 1739,
+  "demSemanaAnt": 1897
+ },
+ {
+  "fecha": "2022-02-23T21:10:00.000-0300",
+  "demHoy": 1946,
+  "demAyer": 1734,
+  "demSemanaAnt": 1902
+ },
+ {
+  "fecha": "2022-02-23T21:15:00.000-0300",
+  "demHoy": 1951,
+  "demAyer": 1749,
+  "demSemanaAnt": 1910,
+  "tempHoy": 31.2,
+  "tempAyer": 28.4,
+  "tempSemanaAnt": 29.5
+ },
+ {
+  "fecha": "2022-02-23T21:20:00.000-0300",
+  "demHoy": 1962,
+  "demAyer": 1751,
+  "demSemanaAnt": 1935
+ },
+ {
+  "fecha": "2022-02-23T21:25:00.000-0300",
+  "demHoy": 1964,
+  "demAyer": 1763,
+  "demSemanaAnt": 1938
+ },
+ {
+  "fecha": "2022-02-23T21:30:00.000-0300",
+  "demHoy": 1972,
+  "demAyer": 1763,
+  "demSemanaAnt": 1933,
+  "tempHoy": 30.9,
+  "tempAyer": 28,
+  "tempSemanaAnt": 29.2
+ },
+ {
+  "fecha": "2022-02-23T21:35:00.000-0300",
+  "demHoy": 1989,
+  "demAyer": 1772,
+  "demSemanaAnt": 1947
+ },
+ {
+  "fecha": "2022-02-23T21:40:00.000-0300",
+  "demHoy": 1992,
+  "demAyer": 1781,
+  "demSemanaAnt": 1951
+ },
+ {
+  "fecha": "2022-02-23T21:45:00.000-0300",
+  "demHoy": 2003,
+  "demAyer": 1781,
+  "demSemanaAnt": 1965,
+  "tempHoy": 30.5,
+  "tempAyer": 27.8,
+  "tempSemanaAnt": 29
+ },
+ {
+  "fecha": "2022-02-23T21:50:00.000-0300",
+  "demHoy": 2009,
+  "demAyer": 1777,
+  "demSemanaAnt": 1964
+ },
+ {
+  "fecha": "2022-02-23T21:55:00.000-0300",
+  "demHoy": 2012,
+  "demAyer": 1787,
+  "demSemanaAnt": 1976
+ },
+ {
+  "fecha": "2022-02-23T22:00:00.000-0300",
+  "demHoy": 2019,
+  "demAyer": 1791,
+  "demSemanaAnt": 1972,
+  "demPrevista": 1911,
+  "tempHoy": 30.4,
+  "tempAyer": 27.5,
+  "tempSemanaAnt": 29.3
+ },
+ {
+  "fecha": "2022-02-23T22:05:00.000-0300",
+  "demHoy": 2026,
+  "demAyer": 1786,
+  "demSemanaAnt": 1976
+ },
+ {
+  "fecha": "2022-02-23T22:10:00.000-0300",
+  "demHoy": 2032,
+  "demAyer": 1786,
+  "demSemanaAnt": 1979
+ },
+ {
+  "fecha": "2022-02-23T22:15:00.000-0300",
+  "demHoy": 2032,
+  "demAyer": 1785,
+  "demSemanaAnt": 1991,
+  "tempHoy": 30.5,
+  "tempAyer": 27.3,
+  "tempSemanaAnt": 29
+ },
+ {
+  "fecha": "2022-02-23T22:20:00.000-0300",
+  "demHoy": 2036,
+  "demAyer": 1806,
+  "demSemanaAnt": 1995
+ },
+ {
+  "fecha": "2022-02-23T22:25:00.000-0300",
+  "demHoy": 2055,
+  "demAyer": 1821,
+  "demSemanaAnt": 2006
+ },
+ {
+  "fecha": "2022-02-23T22:30:00.000-0300",
+  "demHoy": 2053,
+  "demAyer": 1820,
+  "demSemanaAnt": 2007,
+  "tempHoy": 30.4,
+  "tempAyer": 27.3,
+  "tempSemanaAnt": 28.7
+ },
+ {
+  "fecha": "2022-02-23T22:35:00.000-0300",
+  "demHoy": 2052,
+  "demAyer": 1816,
+  "demSemanaAnt": 2009
+ },
+ {
+  "fecha": "2022-02-23T22:40:00.000-0300",
+  "demHoy": 2050,
+  "demAyer": 1826,
+  "demSemanaAnt": 2009
+ },
+ {
+  "fecha": "2022-02-23T22:45:00.000-0300",
+  "demHoy": 2057,
+  "demAyer": 1820,
+  "demSemanaAnt": 2005,
+  "tempHoy": 30.4,
+  "tempAyer": 27.2,
+  "tempSemanaAnt": 28.6
+ },
+ {
+  "fecha": "2022-02-23T22:50:00.000-0300",
+  "demHoy": 2059,
+  "demAyer": 1831,
+  "demSemanaAnt": 2012
+ },
+ {
+  "fecha": "2022-02-23T22:55:00.000-0300",
+  "demHoy": 2072,
+  "demAyer": 1834,
+  "demSemanaAnt": 2017
+ },
+ {
+  "fecha": "2022-02-23T23:00:00.000-0300",
+  "demHoy": 2086,
+  "demAyer": 1833,
+  "demSemanaAnt": 2017,
+  "demPrevista": 1946,
+  "tempHoy": 30.1,
+  "tempAyer": 27,
+  "tempSemanaAnt": 28.3
+ },
+ {
+  "fecha": "2022-02-23T23:05:00.000-0300",
+  "demHoy": 2086,
+  "demAyer": 1828,
+  "demSemanaAnt": 2010
+ },
+ {
+  "fecha": "2022-02-23T23:10:00.000-0300",
+  "demAyer": 1830,
+  "demSemanaAnt": 2007
+ },
+ {
+  "fecha": "2022-02-23T23:15:00.000-0300",
+  "demAyer": 1823,
+  "demSemanaAnt": 2012,
+  "tempAyer": 26.7,
+  "tempSemanaAnt": 28.4
+ },
+ {
+  "fecha": "2022-02-23T23:20:00.000-0300",
+  "demAyer": 1827,
+  "demSemanaAnt": 2008
+ },
+ {
+  "fecha": "2022-02-23T23:25:00.000-0300",
+  "demAyer": 1824,
+  "demSemanaAnt": 2011
+ },
+ {
+  "fecha": "2022-02-23T23:30:00.000-0300",
+  "demAyer": 1818,
+  "demSemanaAnt": 2004,
+  "tempAyer": 26.2,
+  "tempSemanaAnt": 28.3
+ },
+ {
+  "fecha": "2022-02-23T23:35:00.000-0300",
+  "demAyer": 1822,
+  "demSemanaAnt": 1995
+ },
+ {
+  "fecha": "2022-02-23T23:40:00.000-0300",
+  "demAyer": 1817,
+  "demSemanaAnt": 1988
+ },
+ {
+  "fecha": "2022-02-23T23:45:00.000-0300",
+  "demAyer": 1811,
+  "demSemanaAnt": 1983,
+  "tempAyer": 25.9,
+  "tempSemanaAnt": 28.1
+ },
+ {
+  "fecha": "2022-02-23T23:50:00.000-0300",
+  "demAyer": 1805,
+  "demSemanaAnt": 1980
+ },
+ {
+  "fecha": "2022-02-23T23:55:00.000-0300",
+  "demAyer": 1805,
+  "demSemanaAnt": 1995
+ },
+ {
+  "fecha": "2022-02-24T00:00:00.000-0300",
+  "demAyer": 1799,
+  "demSemanaAnt": 1968,
+  "demPrevista": 1894,
+  "tempAyer": 25.7,
+  "tempSemanaAnt": 28.1
+ }
+]

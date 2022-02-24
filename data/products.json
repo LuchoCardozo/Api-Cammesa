@@ -720,16 +720,6 @@
   "type": "visited"
  },
  {
-  "id": 74,
-  "name": "Pepperoni Slices",
-  "description": "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac",
-  "color": "Crimson",
-  "discount": 5,
-  "price": 11505,
-  "image": "http://dummyimage.com/101x100.png/cc0000/ffffff",
-  "type": "visited"
- },
- {
   "id": 75,
   "name": "Beer - Camerons Auburn",
   "description": "vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in",
@@ -1104,6 +1094,15 @@
   "color": "roja",
   "discount": 5,
   "price": 45,
+  "type": "visited"
+ },
+ {
+  "id": 74,
+  "name": "Pepperoni",
+  "description": "  amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac  ",
+  "color": "Crimson",
+  "discount": 8888,
+  "price": 11505,
   "type": "visited"
  }
 ]

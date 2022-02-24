@@ -75,7 +75,7 @@ const productController = {
         color: req.body.color,
         discount: parseInt(req.body.discount),
         price: parseInt(req.body.price),
-        image: req.file.filename,
+          //image: req.file.filename,
         type: req.body.type
     } 
     productsEdit.push(prodEdit);
