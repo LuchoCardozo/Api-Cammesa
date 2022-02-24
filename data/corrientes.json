@@ -1663,41 +1663,49 @@
  },
  {
   "fecha": "2022-02-23T23:10:00.000-0300",
+  "demHoy": 585,
   "demAyer": 528,
   "demSemanaAnt": 579
  },
  {
   "fecha": "2022-02-23T23:15:00.000-0300",
+  "demHoy": 586,
   "demAyer": 533,
   "demSemanaAnt": 582
  },
  {
   "fecha": "2022-02-23T23:20:00.000-0300",
+  "demHoy": 586,
   "demAyer": 532,
   "demSemanaAnt": 582
  },
  {
   "fecha": "2022-02-23T23:25:00.000-0300",
+  "demHoy": 596,
   "demAyer": 534,
   "demSemanaAnt": 584
  },
  {
   "fecha": "2022-02-23T23:30:00.000-0300",
+  "demHoy": 590,
   "demAyer": 526,
   "demSemanaAnt": 568
  },
  {
   "fecha": "2022-02-23T23:35:00.000-0300",
+  "demHoy": 591,
   "demAyer": 540,
   "demSemanaAnt": 568
  },
  {
   "fecha": "2022-02-23T23:40:00.000-0300",
+  "demHoy": 591,
   "demAyer": 538,
   "demSemanaAnt": 553
  },
  {
   "fecha": "2022-02-23T23:45:00.000-0300",
+  "demHoy": 590,
   "demAyer": 533,
   "demSemanaAnt": 552
  },

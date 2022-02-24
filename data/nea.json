@@ -1964,47 +1964,58 @@
  },
  {
   "fecha": "2022-02-23T23:10:00.000-0300",
+  "demHoy": 2084,
   "demAyer": 1830,
   "demSemanaAnt": 2007
  },
  {
   "fecha": "2022-02-23T23:15:00.000-0300",
+  "demHoy": 2082,
   "demAyer": 1823,
   "demSemanaAnt": 2012,
+  "tempHoy": 29.9,
   "tempAyer": 26.7,
   "tempSemanaAnt": 28.4
  },
  {
   "fecha": "2022-02-23T23:20:00.000-0300",
+  "demHoy": 2092,
   "demAyer": 1827,
   "demSemanaAnt": 2008
  },
  {
   "fecha": "2022-02-23T23:25:00.000-0300",
+  "demHoy": 2092,
   "demAyer": 1824,
   "demSemanaAnt": 2011
  },
  {
   "fecha": "2022-02-23T23:30:00.000-0300",
+  "demHoy": 2093,
   "demAyer": 1818,
   "demSemanaAnt": 2004,
+  "tempHoy": 29.8,
   "tempAyer": 26.2,
   "tempSemanaAnt": 28.3
  },
  {
   "fecha": "2022-02-23T23:35:00.000-0300",
+  "demHoy": 2086,
   "demAyer": 1822,
   "demSemanaAnt": 1995
  },
  {
   "fecha": "2022-02-23T23:40:00.000-0300",
+  "demHoy": 2088,
   "demAyer": 1817,
   "demSemanaAnt": 1988
  },
  {
   "fecha": "2022-02-23T23:45:00.000-0300",
+  "demHoy": 2078,
   "demAyer": 1811,
   "demSemanaAnt": 1983,
+  "tempHoy": 29.6,
   "tempAyer": 25.9,
   "tempSemanaAnt": 28.1
  },

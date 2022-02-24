@@ -3,7 +3,6 @@ const path = require ("path")
 const fs = require ("fs");
 const fetch = require ("node-fetch");
 
-
 const chacoFilePath = path.join(__dirname, '../data/chaco.json');
 const chacoDem = fs.readFileSync(chacoFilePath, 'utf-8');
 
@@ -18,7 +17,6 @@ const misionesDem = fs.readFileSync(misionesFilePath, 'utf-8');
 
 const neaFilePath = path.join(__dirname, '../data/nea.json');
 const neaDem = fs.readFileSync(neaFilePath, 'utf-8');
-
 
 
 let chacoFetch = fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=1892')
@@ -63,9 +61,6 @@ let neaFetch = fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemanda
 
 
 
-
-
-
 const apiController= {
     apiChaco: (req,res)=>{
         res.render("api/apiChaco",{chaco: JSON.parse(chacoDem)})
@@ -85,6 +80,4 @@ const apiController= {
 };
 
 
-
 module.exports = apiController
-
