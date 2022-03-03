@@ -3,6 +3,9 @@ const path = require ("path")
 const fs = require ("fs");
 const fetch = require ("node-fetch");
 
+/*
+
+
 const chacoFilePath = path.join(__dirname, '../data/chaco.json');
 const chacoDem = fs.readFileSync(chacoFilePath, 'utf-8');
 
@@ -76,8 +79,14 @@ const apiController= {
     },
     apiNea: (req,res)=>{
         res.render("api/apiNea",{nea:JSON.parse(neaDem)})
+    },
+    grafico: (req,res)=> {
+        res.render ("api/graf",{chaco: JSON.parse(chacoDem)})
     }
 };
 
 
-module.exports = apiController
+
+
+module.exports =  apiController
+    

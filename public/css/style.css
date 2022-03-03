@@ -41,3 +41,9 @@ th{
     font-weight: bold;
     font-size: 1.2em;
 }
+
+.grafico{
+    width: 60%;
+    height: 60%;
+    display: block;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ingrese aca</h1><br>
+
+<form action="/users/login" method="POST">
+
+<input type="email" name="email" id="email" placeholder="ingrese su email registrado"> <br>
+<% if (locals.errors && errors.email) { %>
+    <div><%= errors.email.msg %> </div>
+ 
+<% } %>
+
+<input type="password" name="password" id="password" placeholder="ingrese su contraseña"><br>
+<div >
+    <div >
+        <label >
+            <input type="checkbox"  name="remember_user">Recordar mi usuario
+        </label>
+    </div>
+</div>
+
+
+<button type="submit">INGRESAR</button>
+</form>
+
+    
+</body>
+</html>

@@ -11,21 +11,17 @@
     <h1>FORMULARIO DE CREACION DE PRODUCTO</h1><br>
     <H2>COMPLETAR</H2><br>
 
-    <% errores.forEach(msg => { %>
-    <p><%= msg %></p>
-     <% }) %>
-
-     <% datCargados.forEach(element => { %>
+       
        
       
       
  <form action="/products/create" method="POST" enctype="multipart/form-data">
 
-<input type="text" name="name" id="name" placeholder="NOMBRE" value=<%= element.name %>> <br>
-<input type="text"  name="description" id="description" placeholder="DESCRIPCION" value=<%= element.description %>><br>
-<input type="text" name="color" id="color" placeholder="COLOR" value=<%= element.color %>><br>
-<input type="number" name="discount" id="discount" placeholder="DESCUENTO" value=<%= element.discount %>><br>
-<input type="number"   name="price" id="price" placeholder="PRECIO"  value=<%= element.price %>><br>
+<input type="text" name="name" id="name" placeholder="NOMBRE" value=><br>
+<input type="text"  name="description" id="description" placeholder="DESCRIPCION" value=><br>
+<input type="text" name="color" id="color" placeholder="COLOR" value=><br>
+<input type="number" name="discount" id="discount" placeholder="DESCUENTO" value=><br>
+<input type="number"   name="price" id="price" placeholder="PRECIO"  value=><br>
 <input type="file"  name="image" id="image" placeholder="IMAGEN"><br>
 <select name="type" id="type" placeholder="TIPO" ><br>
     <option value="visited">nuevo</option>
@@ -36,6 +32,5 @@
 
 </form>
 
-<% }) %>  
 </body>
 </html>

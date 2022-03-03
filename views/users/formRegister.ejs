@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>FORM REGISTER</title>
+</head>
+
+<body>
+    <h1>FORMULARIO DE REGISTRACION</h1><br>
+    <H2>COMPLETAR</H2><br>
+
+<form action="/users/register" method="POST" enctype="multipart/form-data">
+    <input type="text" name="first_name" id="first_name" placeholder="NOMBRE"
+        value="<%= locals.oldData ? oldData.first_name : null %>"> <br>
+    <% if (locals.errors && errors.first_name) { %>
+        <div>
+            <p>
+                <%= errors.first_name.msg %>
+            </p>
+        </div>
+        <% } %>
+            <input type="text" name="last_name" id="last_name" placeholder="APELLIDO"
+                value="<%= locals.oldData ? oldData.last_name : null %>"><br>
+            <% if (locals.errors && errors.last_name) { %>
+                <div>
+                    <p>
+                        <%= errors.last_name.msg %>
+                    </p>
+                </div>
+                <% } %>
+                    <input type="email" name="email" id="email" placeholder="EMAIL"
+                        value="<%= locals.oldData ? oldData.email : null %>"><br>
+                    <% if (locals.errors && errors.email) { %>
+                        <div>
+                            <p>
+                                <%= errors.email.msg %>
+                            </p>
+                        </div>
+                        <% } %>
+                            <input type="password" name="password" id="password" placeholder="CONTRASEÑA"><br>
+                            <% if (locals.errors && errors.password) { %>
+                                <div>
+                                    <p>
+                                        <%= errors.password.msg %>
+                                    </p>
+                                </div>
+                                <% } %>
+                                    <input type="file" name="image" id="image" placeholder="AVATAR"><br>
+                                    <% if (locals.errors && errors.image) { %>
+                                        <div>
+                                            <p>
+                                                <%= errors.image.msg %>
+                                            </p>
+                                        </div>
+                                        <% } %>
+
+                                    <select name="country" id="country">
+
+                                        <option>Elegi un pais</option>
+                                        <%let
+                                            countries=["Argentina","Brasil","Alemania","España","Paraguay","Uruguay"]%>
+                                            <% for (const oneCountry of countries) { %>
+                                                <option value="<%= oneCountry %>" <%=locals.oldData &&
+                                                    (oneCountry===oldData.country) ? "selected" : null %>
+                                                    >
+                                                    <%= oneCountry %>
+                                                </option>
+                                                <% } %>
+
+                                    </select><br>
+                                    <% if (locals.errors && errors.country) { %>
+                                        <div>
+                                            <p>
+                                                <%= errors.country.msg %>
+                                            </p>
+                                        </div>
+                                        <% } %>
+                                            <button type="submit">crear </button>
+
+</form>
+</body>
+
+</html>

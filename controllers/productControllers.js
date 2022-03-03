@@ -28,6 +28,7 @@ const productController = {
     },
 
     store: (req,res)=>{
+    if (req.file) {
      let newProduct = {
          id: products[products.length-1].id +1,
          name: req.body.name,
@@ -35,27 +36,64 @@ const productController = {
          color: req.body.color,
          discount: parseInt(req.body.discount),
          price: parseInt(req.body.price),
-        /* image: ()=>{
-           let file = req.file
-           if (!file){
-               "default.jpg"
-           }else{ req.file.filename}
-           },   */     
+         image: req.file.filename,              
          type: req.body.type
      }
-
-     const errores = validationResult(req);
+    const errores = validationResult(req);
      if (!errores.isEmpty()) {
      const mensajes = errores.errors.map(error => error.msg)
      let datCargados =[req.body] 
-     console.log(datCargados);
+     
      res.render("products/formCreate", {errores: mensajes,datCargados})
      } else{ 
      products.push(newProduct);
      const newJson = JSON.stringify(products,null,1);
      fs.writeFileSync(productsFilePath,newJson,"utf-8");
      res.render("products/formCreate")
+    }
+    
+    } else{
+        let newProduct = {
+            id: products[products.length-1].id +1,
+            name: req.body.name,
+            description: req.body.description,
+            color: req.body.color,
+            discount: parseInt(req.body.discount),
+            price: parseInt(req.body.price),
+            image: "default.jpg",              
+            type: req.body.type
+
+     }
+    
+     const errores = validationResult(req);
+     if (!errores.isEmpty()) {
+     const mensajes = errores.errors.map(error => error.msg)
+     let datCargados =[req.body] 
+     res.render("products/formCreate", {errores: mensajes,datCargados})
+     }else{ 
+     products.push(newProduct);
+     const newJson = JSON.stringify(products,null,1);
+     fs.writeFileSync(productsFilePath,newJson,"utf-8");
+     res.render("products/formCreate")
+    }
+    
     }},
+   
+    
+
+
+    /* const errores = validationResult(req);
+     if (!errores.isEmpty()) {
+     const mensajes = errores.errors.map(error => error.msg)
+     let datCargados =[req.body] 
+     
+     res.render("products/formCreate", {errores: mensajes,datCargados})
+     } else{ 
+     products.push(newProduct);
+     const newJson = JSON.stringify(products,null,1);
+     fs.writeFileSync(productsFilePath,newJson,"utf-8");
+     res.render("products/formCreate")
+    }}*/
 
     formEdit: (req,res)=>{
         let idProduct = req.params.id
