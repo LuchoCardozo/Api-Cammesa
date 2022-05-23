@@ -601,561 +601,673 @@
  },
  {
   "fecha": "2022-05-23T08:25:00.000-0300",
+  "demHoy": 304,
   "demAyer": 247,
   "demSemanaAnt": 286
  },
  {
   "fecha": "2022-05-23T08:30:00.000-0300",
+  "demHoy": 305,
   "demAyer": 249,
   "demSemanaAnt": 290
  },
  {
   "fecha": "2022-05-23T08:35:00.000-0300",
+  "demHoy": 307,
   "demAyer": 254,
   "demSemanaAnt": 292
  },
  {
   "fecha": "2022-05-23T08:40:00.000-0300",
+  "demHoy": 300,
   "demAyer": 247,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T08:45:00.000-0300",
+  "demHoy": 301,
   "demAyer": 258,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T08:50:00.000-0300",
+  "demHoy": 303,
   "demAyer": 256,
   "demSemanaAnt": 286
  },
  {
   "fecha": "2022-05-23T08:55:00.000-0300",
+  "demHoy": 307,
   "demAyer": 255,
   "demSemanaAnt": 283
  },
  {
   "fecha": "2022-05-23T09:00:00.000-0300",
+  "demHoy": 305,
   "demAyer": 255,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T09:05:00.000-0300",
+  "demHoy": 308,
   "demAyer": 256,
   "demSemanaAnt": 290
  },
  {
   "fecha": "2022-05-23T09:10:00.000-0300",
+  "demHoy": 289,
   "demAyer": 255,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T09:15:00.000-0300",
+  "demHoy": 298,
   "demAyer": 257,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T09:20:00.000-0300",
+  "demHoy": 307,
   "demAyer": 269,
   "demSemanaAnt": 295
  },
  {
   "fecha": "2022-05-23T09:25:00.000-0300",
+  "demHoy": 298,
   "demAyer": 260,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T09:30:00.000-0300",
+  "demHoy": 307,
   "demAyer": 266,
   "demSemanaAnt": 286
  },
  {
   "fecha": "2022-05-23T09:35:00.000-0300",
+  "demHoy": 295,
   "demAyer": 260,
   "demSemanaAnt": 292
  },
  {
   "fecha": "2022-05-23T09:40:00.000-0300",
+  "demHoy": 300,
   "demAyer": 258,
   "demSemanaAnt": 298
  },
  {
   "fecha": "2022-05-23T09:45:00.000-0300",
+  "demHoy": 302,
   "demAyer": 261,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T09:50:00.000-0300",
+  "demHoy": 300,
   "demAyer": 263,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T09:55:00.000-0300",
+  "demHoy": 303,
   "demAyer": 266,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T10:00:00.000-0300",
+  "demHoy": 292,
   "demAyer": 269,
   "demSemanaAnt": 298
  },
  {
   "fecha": "2022-05-23T10:05:00.000-0300",
+  "demHoy": 305,
   "demAyer": 271,
   "demSemanaAnt": 299
  },
  {
   "fecha": "2022-05-23T10:10:00.000-0300",
+  "demHoy": 297,
   "demAyer": 269,
   "demSemanaAnt": 287
  },
  {
   "fecha": "2022-05-23T10:15:00.000-0300",
+  "demHoy": 304,
   "demAyer": 269,
   "demSemanaAnt": 289
  },
  {
   "fecha": "2022-05-23T10:20:00.000-0300",
+  "demHoy": 297,
   "demAyer": 274,
   "demSemanaAnt": 290
  },
  {
   "fecha": "2022-05-23T10:25:00.000-0300",
+  "demHoy": 301,
   "demAyer": 273,
   "demSemanaAnt": 293
  },
  {
   "fecha": "2022-05-23T10:30:00.000-0300",
+  "demHoy": 299,
   "demAyer": 271,
   "demSemanaAnt": 302
  },
  {
   "fecha": "2022-05-23T10:35:00.000-0300",
+  "demHoy": 299,
   "demAyer": 272,
   "demSemanaAnt": 303
  },
  {
   "fecha": "2022-05-23T10:40:00.000-0300",
+  "demHoy": 298,
   "demAyer": 268,
   "demSemanaAnt": 297
  },
  {
   "fecha": "2022-05-23T10:45:00.000-0300",
+  "demHoy": 300,
   "demAyer": 263,
   "demSemanaAnt": 307
  },
  {
   "fecha": "2022-05-23T10:50:00.000-0300",
+  "demHoy": 304,
   "demAyer": 262,
   "demSemanaAnt": 296
  },
  {
   "fecha": "2022-05-23T10:55:00.000-0300",
+  "demHoy": 301,
   "demAyer": 266,
   "demSemanaAnt": 304
  },
  {
   "fecha": "2022-05-23T11:00:00.000-0300",
+  "demHoy": 303,
   "demAyer": 268,
   "demSemanaAnt": 304
  },
  {
   "fecha": "2022-05-23T11:05:00.000-0300",
+  "demHoy": 303,
   "demAyer": 269,
   "demSemanaAnt": 299
  },
  {
   "fecha": "2022-05-23T11:10:00.000-0300",
+  "demHoy": 304,
   "demAyer": 264,
   "demSemanaAnt": 305
  },
  {
   "fecha": "2022-05-23T11:15:00.000-0300",
+  "demHoy": 313,
   "demAyer": 278,
   "demSemanaAnt": 305
  },
  {
   "fecha": "2022-05-23T11:20:00.000-0300",
+  "demHoy": 308,
   "demAyer": 271,
   "demSemanaAnt": 306
  },
  {
   "fecha": "2022-05-23T11:25:00.000-0300",
+  "demHoy": 309,
   "demAyer": 268,
   "demSemanaAnt": 306
  },
  {
   "fecha": "2022-05-23T11:30:00.000-0300",
+  "demHoy": 309,
   "demAyer": 271,
   "demSemanaAnt": 313
  },
  {
   "fecha": "2022-05-23T11:35:00.000-0300",
+  "demHoy": 311,
   "demAyer": 272,
   "demSemanaAnt": 315
  },
  {
   "fecha": "2022-05-23T11:40:00.000-0300",
+  "demHoy": 312,
   "demAyer": 260,
   "demSemanaAnt": 311
  },
  {
   "fecha": "2022-05-23T11:45:00.000-0300",
+  "demHoy": 316,
   "demAyer": 269,
   "demSemanaAnt": 309
  },
  {
   "fecha": "2022-05-23T11:50:00.000-0300",
+  "demHoy": 319,
   "demAyer": 273,
   "demSemanaAnt": 312
  },
  {
   "fecha": "2022-05-23T11:55:00.000-0300",
+  "demHoy": 317,
   "demAyer": 273,
   "demSemanaAnt": 309
  },
  {
   "fecha": "2022-05-23T12:00:00.000-0300",
+  "demHoy": 312,
   "demAyer": 268,
   "demSemanaAnt": 313
  },
  {
   "fecha": "2022-05-23T12:05:00.000-0300",
+  "demHoy": 312,
   "demAyer": 278,
   "demSemanaAnt": 305
  },
  {
   "fecha": "2022-05-23T12:10:00.000-0300",
+  "demHoy": 304,
   "demAyer": 278,
   "demSemanaAnt": 307
  },
  {
   "fecha": "2022-05-23T12:15:00.000-0300",
+  "demHoy": 307,
   "demAyer": 274,
   "demSemanaAnt": 313
  },
  {
   "fecha": "2022-05-23T12:20:00.000-0300",
+  "demHoy": 317,
   "demAyer": 278,
   "demSemanaAnt": 315
  },
  {
   "fecha": "2022-05-23T12:25:00.000-0300",
+  "demHoy": 303,
   "demAyer": 283,
   "demSemanaAnt": 311
  },
  {
   "fecha": "2022-05-23T12:30:00.000-0300",
+  "demHoy": 312,
   "demAyer": 279,
   "demSemanaAnt": 311
  },
  {
   "fecha": "2022-05-23T12:35:00.000-0300",
+  "demHoy": 304,
   "demAyer": 278,
   "demSemanaAnt": 312
  },
  {
   "fecha": "2022-05-23T12:40:00.000-0300",
+  "demHoy": 303,
   "demAyer": 273,
   "demSemanaAnt": 307
  },
  {
   "fecha": "2022-05-23T12:45:00.000-0300",
+  "demHoy": 308,
   "demAyer": 278,
   "demSemanaAnt": 307
  },
  {
   "fecha": "2022-05-23T12:50:00.000-0300",
+  "demHoy": 294,
   "demAyer": 275,
   "demSemanaAnt": 307
  },
  {
   "fecha": "2022-05-23T12:55:00.000-0300",
+  "demHoy": 298,
   "demAyer": 267,
   "demSemanaAnt": 303
  },
  {
   "fecha": "2022-05-23T13:00:00.000-0300",
+  "demHoy": 291,
   "demAyer": 271,
   "demSemanaAnt": 298
  },
  {
   "fecha": "2022-05-23T13:05:00.000-0300",
+  "demHoy": 294,
   "demAyer": 263,
   "demSemanaAnt": 306
  },
  {
   "fecha": "2022-05-23T13:10:00.000-0300",
+  "demHoy": 297,
   "demAyer": 262,
   "demSemanaAnt": 297
  },
  {
   "fecha": "2022-05-23T13:15:00.000-0300",
+  "demHoy": 301,
   "demAyer": 272,
   "demSemanaAnt": 302
  },
  {
   "fecha": "2022-05-23T13:20:00.000-0300",
+  "demHoy": 301,
   "demAyer": 263,
   "demSemanaAnt": 303
  },
  {
   "fecha": "2022-05-23T13:25:00.000-0300",
+  "demHoy": 289,
   "demAyer": 259,
   "demSemanaAnt": 292
  },
  {
   "fecha": "2022-05-23T13:30:00.000-0300",
+  "demHoy": 292,
   "demAyer": 257,
   "demSemanaAnt": 284
  },
  {
   "fecha": "2022-05-23T13:35:00.000-0300",
+  "demHoy": 287,
   "demAyer": 265,
   "demSemanaAnt": 295
  },
  {
   "fecha": "2022-05-23T13:40:00.000-0300",
+  "demHoy": 299,
   "demAyer": 266,
   "demSemanaAnt": 287
  },
  {
   "fecha": "2022-05-23T13:45:00.000-0300",
+  "demHoy": 296,
   "demAyer": 260,
   "demSemanaAnt": 303
  },
  {
   "fecha": "2022-05-23T13:50:00.000-0300",
+  "demHoy": 304,
   "demAyer": 263,
   "demSemanaAnt": 301
  },
  {
   "fecha": "2022-05-23T13:55:00.000-0300",
+  "demHoy": 289,
   "demAyer": 254,
   "demSemanaAnt": 300
  },
  {
   "fecha": "2022-05-23T14:00:00.000-0300",
+  "demHoy": 284,
   "demAyer": 259,
   "demSemanaAnt": 295
  },
  {
   "fecha": "2022-05-23T14:05:00.000-0300",
+  "demHoy": 282,
   "demAyer": 256,
   "demSemanaAnt": 303
  },
  {
   "fecha": "2022-05-23T14:10:00.000-0300",
+  "demHoy": 290,
   "demAyer": 251,
   "demSemanaAnt": 301
  },
  {
   "fecha": "2022-05-23T14:15:00.000-0300",
+  "demHoy": 282,
   "demAyer": 256,
   "demSemanaAnt": 301
  },
  {
   "fecha": "2022-05-23T14:20:00.000-0300",
+  "demHoy": 282,
   "demAyer": 260,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T14:25:00.000-0300",
+  "demHoy": 288,
   "demAyer": 251,
   "demSemanaAnt": 295
  },
  {
   "fecha": "2022-05-23T14:30:00.000-0300",
+  "demHoy": 279,
   "demAyer": 264,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T14:35:00.000-0300",
+  "demHoy": 277,
   "demAyer": 250,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T14:40:00.000-0300",
+  "demHoy": 277,
   "demAyer": 252,
   "demSemanaAnt": 296
  },
  {
   "fecha": "2022-05-23T14:45:00.000-0300",
+  "demHoy": 274,
   "demAyer": 260,
   "demSemanaAnt": 293
  },
  {
   "fecha": "2022-05-23T14:50:00.000-0300",
+  "demHoy": 272,
   "demAyer": 247,
   "demSemanaAnt": 297
  },
  {
   "fecha": "2022-05-23T14:55:00.000-0300",
+  "demHoy": 269,
   "demAyer": 253,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T15:00:00.000-0300",
+  "demHoy": 282,
   "demAyer": 255,
   "demSemanaAnt": 283
  },
  {
   "fecha": "2022-05-23T15:05:00.000-0300",
+  "demHoy": 277,
   "demAyer": 244,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T15:10:00.000-0300",
+  "demHoy": 272,
   "demAyer": 256,
   "demSemanaAnt": 284
  },
  {
   "fecha": "2022-05-23T15:15:00.000-0300",
+  "demHoy": 278,
   "demAyer": 248,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T15:20:00.000-0300",
+  "demHoy": 275,
   "demAyer": 248,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T15:25:00.000-0300",
+  "demHoy": 280,
   "demAyer": 249,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T15:30:00.000-0300",
+  "demHoy": 284,
   "demAyer": 245,
   "demSemanaAnt": 285
  },
  {
   "fecha": "2022-05-23T15:35:00.000-0300",
+  "demHoy": 286,
   "demAyer": 250,
   "demSemanaAnt": 295
  },
  {
   "fecha": "2022-05-23T15:40:00.000-0300",
+  "demHoy": 289,
   "demAyer": 246,
   "demSemanaAnt": 293
  },
  {
   "fecha": "2022-05-23T15:45:00.000-0300",
+  "demHoy": 278,
   "demAyer": 250,
   "demSemanaAnt": 288
  },
  {
   "fecha": "2022-05-23T15:50:00.000-0300",
+  "demHoy": 278,
   "demAyer": 256,
   "demSemanaAnt": 289
  },
  {
   "fecha": "2022-05-23T15:55:00.000-0300",
+  "demHoy": 284,
   "demAyer": 248,
   "demSemanaAnt": 296
  },
  {
   "fecha": "2022-05-23T16:00:00.000-0300",
+  "demHoy": 286,
   "demAyer": 249,
   "demSemanaAnt": 291
  },
  {
   "fecha": "2022-05-23T16:05:00.000-0300",
+  "demHoy": 288,
   "demAyer": 254,
   "demSemanaAnt": 296
  },
  {
   "fecha": "2022-05-23T16:10:00.000-0300",
+  "demHoy": 294,
   "demAyer": 256,
   "demSemanaAnt": 294
  },
  {
   "fecha": "2022-05-23T16:15:00.000-0300",
+  "demHoy": 292,
   "demAyer": 258,
   "demSemanaAnt": 304
  },
  {
   "fecha": "2022-05-23T16:20:00.000-0300",
+  "demHoy": 287,
   "demAyer": 261,
   "demSemanaAnt": 301
  },
  {
   "fecha": "2022-05-23T16:25:00.000-0300",
+  "demHoy": 300,
   "demAyer": 258,
   "demSemanaAnt": 300
  },
  {
   "fecha": "2022-05-23T16:30:00.000-0300",
+  "demHoy": 298,
   "demAyer": 245,
   "demSemanaAnt": 298
  },
  {
   "fecha": "2022-05-23T16:35:00.000-0300",
+  "demHoy": 303,
   "demAyer": 252,
   "demSemanaAnt": 308
  },
  {
   "fecha": "2022-05-23T16:40:00.000-0300",
+  "demHoy": 301,
   "demAyer": 257,
   "demSemanaAnt": 305
  },
  {
   "fecha": "2022-05-23T16:45:00.000-0300",
+  "demHoy": 299,
   "demAyer": 255,
   "demSemanaAnt": 305
  },
  {
   "fecha": "2022-05-23T16:50:00.000-0300",
+  "demHoy": 296,
   "demAyer": 255,
   "demSemanaAnt": 310
  },
  {
   "fecha": "2022-05-23T16:55:00.000-0300",
+  "demHoy": 299,
   "demAyer": 253,
   "demSemanaAnt": 306
  },
  {
   "fecha": "2022-05-23T17:00:00.000-0300",
+  "demHoy": 298,
   "demAyer": 266,
   "demSemanaAnt": 309
  },
  {
   "fecha": "2022-05-23T17:05:00.000-0300",
+  "demHoy": 301,
   "demAyer": 267,
   "demSemanaAnt": 301
  },
  {
   "fecha": "2022-05-23T17:10:00.000-0300",
+  "demHoy": 295,
   "demAyer": 268,
   "demSemanaAnt": 308
  },
  {
   "fecha": "2022-05-23T17:15:00.000-0300",
+  "demHoy": 300,
   "demAyer": 265,
   "demSemanaAnt": 312
  },
  {
   "fecha": "2022-05-23T17:20:00.000-0300",
+  "demHoy": 312,
   "demAyer": 263,
   "demSemanaAnt": 310
  },
  {
   "fecha": "2022-05-23T17:25:00.000-0300",
+  "demHoy": 307,
   "demAyer": 270,
   "demSemanaAnt": 321
  },
  {
   "fecha": "2022-05-23T17:30:00.000-0300",
+  "demHoy": 306,
   "demAyer": 267,
   "demSemanaAnt": 314
  },
  {
   "fecha": "2022-05-23T17:35:00.000-0300",
+  "demHoy": 308,
   "demAyer": 266,
   "demSemanaAnt": 321
  },
  {
   "fecha": "2022-05-23T17:40:00.000-0300",
+  "demHoy": 305,
   "demAyer": 275,
   "demSemanaAnt": 321
  },
