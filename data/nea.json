@@ -13,623 +13,767 @@
  },
  {
   "fecha": "2022-05-23T00:15:00.000-0300",
+  "demHoy": 960,
   "demAyer": 1014,
   "demSemanaAnt": 895,
+  "tempHoy": 12.9,
   "tempAyer": 13.7,
   "tempSemanaAnt": 11.9
  },
  {
   "fecha": "2022-05-23T00:20:00.000-0300",
+  "demHoy": 944,
   "demAyer": 1013,
   "demSemanaAnt": 887
  },
  {
   "fecha": "2022-05-23T00:25:00.000-0300",
+  "demHoy": 939,
   "demAyer": 1004,
   "demSemanaAnt": 885
  },
  {
   "fecha": "2022-05-23T00:30:00.000-0300",
+  "demHoy": 936,
   "demAyer": 1004,
   "demSemanaAnt": 883,
+  "tempHoy": 13,
   "tempAyer": 13.8,
   "tempSemanaAnt": 11.7
  },
  {
   "fecha": "2022-05-23T00:35:00.000-0300",
+  "demHoy": 920,
   "demAyer": 991,
   "demSemanaAnt": 879
  },
  {
   "fecha": "2022-05-23T00:40:00.000-0300",
+  "demHoy": 922,
   "demAyer": 983,
   "demSemanaAnt": 876
  },
  {
   "fecha": "2022-05-23T00:45:00.000-0300",
+  "demHoy": 909,
   "demAyer": 970,
   "demSemanaAnt": 869,
+  "tempHoy": 13.2,
   "tempAyer": 13.5,
   "tempSemanaAnt": 11.6
  },
  {
   "fecha": "2022-05-23T00:50:00.000-0300",
+  "demHoy": 897,
   "demAyer": 970,
   "demSemanaAnt": 856
  },
  {
   "fecha": "2022-05-23T00:55:00.000-0300",
+  "demHoy": 894,
   "demAyer": 966,
   "demSemanaAnt": 859
  },
  {
   "fecha": "2022-05-23T01:00:00.000-0300",
+  "demHoy": 895,
   "demAyer": 953,
   "demSemanaAnt": 854,
   "demPrevista": 782,
+  "tempHoy": 13.2,
   "tempAyer": 13.5,
   "tempSemanaAnt": 11.3
  },
  {
   "fecha": "2022-05-23T01:05:00.000-0300",
+  "demHoy": 889,
   "demAyer": 947,
   "demSemanaAnt": 845
  },
  {
   "fecha": "2022-05-23T01:10:00.000-0300",
+  "demHoy": 876,
   "demAyer": 940,
   "demSemanaAnt": 838
  },
  {
   "fecha": "2022-05-23T01:15:00.000-0300",
+  "demHoy": 874,
   "demAyer": 934,
   "demSemanaAnt": 838,
+  "tempHoy": 13.4,
   "tempAyer": 13.5,
   "tempSemanaAnt": 11.2
  },
  {
   "fecha": "2022-05-23T01:20:00.000-0300",
+  "demHoy": 861,
   "demAyer": 932,
   "demSemanaAnt": 830
  },
  {
   "fecha": "2022-05-23T01:25:00.000-0300",
+  "demHoy": 858,
   "demAyer": 923,
   "demSemanaAnt": 833
  },
  {
   "fecha": "2022-05-23T01:30:00.000-0300",
+  "demHoy": 858,
   "demAyer": 918,
   "demSemanaAnt": 820,
+  "tempHoy": 13.6,
   "tempAyer": 13.7,
   "tempSemanaAnt": 11
  },
  {
   "fecha": "2022-05-23T01:35:00.000-0300",
+  "demHoy": 844,
   "demAyer": 911,
   "demSemanaAnt": 821
  },
  {
   "fecha": "2022-05-23T01:40:00.000-0300",
+  "demHoy": 849,
   "demAyer": 912,
   "demSemanaAnt": 817
  },
  {
   "fecha": "2022-05-23T01:45:00.000-0300",
+  "demHoy": 844,
   "demAyer": 904,
   "demSemanaAnt": 814,
+  "tempHoy": 13.7,
   "tempAyer": 13.5,
   "tempSemanaAnt": 11
  },
  {
   "fecha": "2022-05-23T01:50:00.000-0300",
+  "demHoy": 839,
   "demAyer": 907,
   "demSemanaAnt": 808
  },
  {
   "fecha": "2022-05-23T01:55:00.000-0300",
+  "demHoy": 839,
   "demAyer": 896,
   "demSemanaAnt": 805
  },
  {
   "fecha": "2022-05-23T02:00:00.000-0300",
+  "demHoy": 831,
   "demAyer": 900,
   "demSemanaAnt": 808,
   "demPrevista": 734,
+  "tempHoy": 13.5,
   "tempAyer": 13.4,
   "tempSemanaAnt": 10.7
  },
  {
   "fecha": "2022-05-23T02:05:00.000-0300",
+  "demHoy": 826,
   "demAyer": 891,
   "demSemanaAnt": 794
  },
  {
   "fecha": "2022-05-23T02:10:00.000-0300",
+  "demHoy": 825,
   "demAyer": 892,
   "demSemanaAnt": 792
  },
  {
   "fecha": "2022-05-23T02:15:00.000-0300",
+  "demHoy": 821,
   "demAyer": 887,
   "demSemanaAnt": 794,
+  "tempHoy": 13.1,
   "tempAyer": 13.2,
   "tempSemanaAnt": 10.7
  },
  {
   "fecha": "2022-05-23T02:20:00.000-0300",
+  "demHoy": 816,
   "demAyer": 881,
   "demSemanaAnt": 793
  },
  {
   "fecha": "2022-05-23T02:25:00.000-0300",
+  "demHoy": 817,
   "demAyer": 880,
   "demSemanaAnt": 788
  },
  {
   "fecha": "2022-05-23T02:30:00.000-0300",
+  "demHoy": 820,
   "demAyer": 867,
   "demSemanaAnt": 787,
+  "tempHoy": 12.9,
   "tempAyer": 12.9,
   "tempSemanaAnt": 10.6
  },
  {
   "fecha": "2022-05-23T02:35:00.000-0300",
+  "demHoy": 812,
   "demAyer": 872,
   "demSemanaAnt": 787
  },
  {
   "fecha": "2022-05-23T02:40:00.000-0300",
+  "demHoy": 816,
   "demAyer": 863,
   "demSemanaAnt": 783
  },
  {
   "fecha": "2022-05-23T02:45:00.000-0300",
+  "demHoy": 805,
   "demAyer": 856,
   "demSemanaAnt": 779,
+  "tempHoy": 12.5,
   "tempAyer": 12.7,
   "tempSemanaAnt": 10.5
  },
  {
   "fecha": "2022-05-23T02:50:00.000-0300",
+  "demHoy": 813,
   "demAyer": 872,
   "demSemanaAnt": 780
  },
  {
   "fecha": "2022-05-23T02:55:00.000-0300",
+  "demHoy": 815,
   "demAyer": 865,
   "demSemanaAnt": 772
  },
  {
   "fecha": "2022-05-23T03:00:00.000-0300",
+  "demHoy": 808,
   "demAyer": 858,
   "demSemanaAnt": 769,
   "demPrevista": 702,
+  "tempHoy": 12.4,
   "tempAyer": 12.6,
   "tempSemanaAnt": 10.4
  },
  {
   "fecha": "2022-05-23T03:05:00.000-0300",
+  "demHoy": 803,
   "demAyer": 861,
   "demSemanaAnt": 767
  },
  {
   "fecha": "2022-05-23T03:10:00.000-0300",
+  "demHoy": 810,
   "demAyer": 857,
   "demSemanaAnt": 771
  },
  {
   "fecha": "2022-05-23T03:15:00.000-0300",
+  "demHoy": 802,
   "demAyer": 851,
   "demSemanaAnt": 774,
+  "tempHoy": 12.5,
   "tempAyer": 12.4,
   "tempSemanaAnt": 10.3
  },
  {
   "fecha": "2022-05-23T03:20:00.000-0300",
+  "demHoy": 801,
   "demAyer": 845,
   "demSemanaAnt": 770
  },
  {
   "fecha": "2022-05-23T03:25:00.000-0300",
+  "demHoy": 800,
   "demAyer": 846,
   "demSemanaAnt": 765
  },
  {
   "fecha": "2022-05-23T03:30:00.000-0300",
+  "demHoy": 798,
   "demAyer": 845,
   "demSemanaAnt": 773,
+  "tempHoy": 12.3,
   "tempAyer": 12.1,
   "tempSemanaAnt": 10.3
  },
  {
   "fecha": "2022-05-23T03:35:00.000-0300",
+  "demHoy": 808,
   "demAyer": 847,
   "demSemanaAnt": 770
  },
  {
   "fecha": "2022-05-23T03:40:00.000-0300",
+  "demHoy": 797,
   "demAyer": 840,
   "demSemanaAnt": 762
  },
  {
   "fecha": "2022-05-23T03:45:00.000-0300",
+  "demHoy": 797,
   "demAyer": 842,
   "demSemanaAnt": 764,
+  "tempHoy": 12,
   "tempAyer": 11.8,
   "tempSemanaAnt": 10
  },
  {
   "fecha": "2022-05-23T03:50:00.000-0300",
+  "demHoy": 800,
   "demAyer": 830,
   "demSemanaAnt": 769
  },
  {
   "fecha": "2022-05-23T03:55:00.000-0300",
+  "demHoy": 800,
   "demAyer": 835,
   "demSemanaAnt": 767
  },
  {
   "fecha": "2022-05-23T04:00:00.000-0300",
+  "demHoy": 799,
   "demAyer": 840,
   "demSemanaAnt": 777,
   "demPrevista": 717,
+  "tempHoy": 11.8,
   "tempAyer": 11.4,
   "tempSemanaAnt": 9.9
  },
  {
   "fecha": "2022-05-23T04:05:00.000-0300",
+  "demHoy": 807,
   "demAyer": 830,
   "demSemanaAnt": 778
  },
  {
   "fecha": "2022-05-23T04:10:00.000-0300",
+  "demHoy": 804,
   "demAyer": 826,
   "demSemanaAnt": 773
  },
  {
   "fecha": "2022-05-23T04:15:00.000-0300",
+  "demHoy": 806,
   "demAyer": 825,
   "demSemanaAnt": 778,
+  "tempHoy": 11.7,
   "tempAyer": 11.2,
   "tempSemanaAnt": 9.9
  },
  {
   "fecha": "2022-05-23T04:20:00.000-0300",
+  "demHoy": 811,
   "demAyer": 823,
   "demSemanaAnt": 782
  },
  {
   "fecha": "2022-05-23T04:25:00.000-0300",
+  "demHoy": 807,
   "demAyer": 823,
   "demSemanaAnt": 776
  },
  {
   "fecha": "2022-05-23T04:30:00.000-0300",
+  "demHoy": 806,
   "demAyer": 818,
   "demSemanaAnt": 784,
+  "tempHoy": 11.6,
   "tempAyer": 11.1,
   "tempSemanaAnt": 9.8
  },
  {
   "fecha": "2022-05-23T04:35:00.000-0300",
+  "demHoy": 802,
   "demAyer": 817,
   "demSemanaAnt": 783
  },
  {
   "fecha": "2022-05-23T04:40:00.000-0300",
+  "demHoy": 803,
   "demAyer": 821,
   "demSemanaAnt": 783
  },
  {
   "fecha": "2022-05-23T04:45:00.000-0300",
+  "demHoy": 803,
   "demAyer": 822,
   "demSemanaAnt": 779,
+  "tempHoy": 11.6,
   "tempAyer": 10.9,
   "tempSemanaAnt": 9.6
  },
  {
   "fecha": "2022-05-23T04:50:00.000-0300",
+  "demHoy": 800,
   "demAyer": 823,
   "demSemanaAnt": 780
  },
  {
   "fecha": "2022-05-23T04:55:00.000-0300",
+  "demHoy": 808,
   "demAyer": 819,
   "demSemanaAnt": 785
  },
  {
   "fecha": "2022-05-23T05:00:00.000-0300",
+  "demHoy": 804,
   "demAyer": 821,
   "demSemanaAnt": 789,
   "demPrevista": 741,
+  "tempHoy": 11.4,
   "tempAyer": 10.8,
   "tempSemanaAnt": 9.4
  },
  {
   "fecha": "2022-05-23T05:05:00.000-0300",
+  "demHoy": 816,
   "demAyer": 811,
   "demSemanaAnt": 791
  },
  {
   "fecha": "2022-05-23T05:10:00.000-0300",
+  "demHoy": 822,
   "demAyer": 816,
   "demSemanaAnt": 806
  },
  {
   "fecha": "2022-05-23T05:15:00.000-0300",
+  "demHoy": 822,
   "demAyer": 811,
   "demSemanaAnt": 799,
+  "tempHoy": 11.2,
   "tempAyer": 10.7,
   "tempSemanaAnt": 9.4
  },
  {
   "fecha": "2022-05-23T05:20:00.000-0300",
+  "demHoy": 830,
   "demAyer": 816,
   "demSemanaAnt": 799
  },
  {
   "fecha": "2022-05-23T05:25:00.000-0300",
+  "demHoy": 835,
   "demAyer": 815,
   "demSemanaAnt": 806
  },
  {
   "fecha": "2022-05-23T05:30:00.000-0300",
+  "demHoy": 844,
   "demAyer": 820,
   "demSemanaAnt": 808,
+  "tempHoy": 11,
   "tempAyer": 10.7,
   "tempSemanaAnt": 9.3
  },
  {
   "fecha": "2022-05-23T05:35:00.000-0300",
+  "demHoy": 854,
   "demAyer": 812,
   "demSemanaAnt": 815
  },
  {
   "fecha": "2022-05-23T05:40:00.000-0300",
+  "demHoy": 856,
   "demAyer": 817,
   "demSemanaAnt": 821
  },
  {
   "fecha": "2022-05-23T05:45:00.000-0300",
+  "demHoy": 861,
   "demAyer": 818,
   "demSemanaAnt": 822,
+  "tempHoy": 10.9,
   "tempAyer": 10.7,
   "tempSemanaAnt": 9.2
  },
  {
   "fecha": "2022-05-23T05:50:00.000-0300",
+  "demHoy": 866,
   "demAyer": 818,
   "demSemanaAnt": 822
  },
  {
   "fecha": "2022-05-23T05:55:00.000-0300",
+  "demHoy": 870,
   "demAyer": 817,
   "demSemanaAnt": 835
  },
  {
   "fecha": "2022-05-23T06:00:00.000-0300",
+  "demHoy": 881,
   "demAyer": 814,
   "demSemanaAnt": 841,
   "demPrevista": 850,
+  "tempHoy": 10.5,
   "tempAyer": 10.8,
   "tempSemanaAnt": 9.1
  },
  {
   "fecha": "2022-05-23T06:05:00.000-0300",
+  "demHoy": 909,
   "demAyer": 824,
   "demSemanaAnt": 858
  },
  {
   "fecha": "2022-05-23T06:10:00.000-0300",
+  "demHoy": 901,
   "demAyer": 821,
   "demSemanaAnt": 884
  },
  {
   "fecha": "2022-05-23T06:15:00.000-0300",
+  "demHoy": 921,
   "demAyer": 815,
   "demSemanaAnt": 896,
+  "tempHoy": 10.4,
   "tempAyer": 10.7,
   "tempSemanaAnt": 9.1
  },
  {
   "fecha": "2022-05-23T06:20:00.000-0300",
+  "demHoy": 933,
   "demAyer": 821,
   "demSemanaAnt": 911
  },
  {
   "fecha": "2022-05-23T06:25:00.000-0300",
+  "demHoy": 973,
   "demAyer": 819,
   "demSemanaAnt": 918
  },
  {
   "fecha": "2022-05-23T06:30:00.000-0300",
+  "demHoy": 979,
   "demAyer": 823,
   "demSemanaAnt": 927,
+  "tempHoy": 10.2,
   "tempAyer": 10.4,
   "tempSemanaAnt": 9
  },
  {
   "fecha": "2022-05-23T06:35:00.000-0300",
+  "demHoy": 990,
   "demAyer": 828,
   "demSemanaAnt": 939
  },
  {
   "fecha": "2022-05-23T06:40:00.000-0300",
+  "demHoy": 1004,
   "demAyer": 831,
   "demSemanaAnt": 955
  },
  {
   "fecha": "2022-05-23T06:45:00.000-0300",
+  "demHoy": 1019,
   "demAyer": 833,
   "demSemanaAnt": 965,
+  "tempHoy": 10.1,
   "tempAyer": 10.7,
   "tempSemanaAnt": 8.8
  },
  {
   "fecha": "2022-05-23T06:50:00.000-0300",
+  "demHoy": 1018,
   "demAyer": 841,
   "demSemanaAnt": 972
  },
  {
   "fecha": "2022-05-23T06:55:00.000-0300",
+  "demHoy": 1027,
   "demAyer": 842,
   "demSemanaAnt": 974
  },
  {
   "fecha": "2022-05-23T07:00:00.000-0300",
+  "demHoy": 1040,
   "demAyer": 834,
   "demSemanaAnt": 982,
   "demPrevista": 1042,
+  "tempHoy": 10.4,
   "tempAyer": 10.5,
   "tempSemanaAnt": 8.6
  },
  {
   "fecha": "2022-05-23T07:05:00.000-0300",
+  "demHoy": 1048,
   "demAyer": 846,
   "demSemanaAnt": 987
  },
  {
   "fecha": "2022-05-23T07:10:00.000-0300",
+  "demHoy": 1066,
   "demAyer": 841,
   "demSemanaAnt": 1005
  },
  {
   "fecha": "2022-05-23T07:15:00.000-0300",
+  "demHoy": 1061,
   "demAyer": 837,
   "demSemanaAnt": 1000,
+  "tempHoy": 10.4,
   "tempAyer": 10.2,
   "tempSemanaAnt": 8.4
  },
  {
   "fecha": "2022-05-23T07:20:00.000-0300",
+  "demHoy": 1054,
   "demAyer": 832,
   "demSemanaAnt": 991
  },
  {
   "fecha": "2022-05-23T07:25:00.000-0300",
+  "demHoy": 1053,
   "demAyer": 823,
   "demSemanaAnt": 979
  },
  {
   "fecha": "2022-05-23T07:30:00.000-0300",
+  "demHoy": 1044,
   "demAyer": 822,
   "demSemanaAnt": 976,
+  "tempHoy": 10.1,
   "tempAyer": 10.2,
   "tempSemanaAnt": 8.2
  },
  {
   "fecha": "2022-05-23T07:35:00.000-0300",
+  "demHoy": 1037,
   "demAyer": 817,
   "demSemanaAnt": 985
  },
  {
   "fecha": "2022-05-23T07:40:00.000-0300",
+  "demHoy": 1033,
   "demAyer": 824,
   "demSemanaAnt": 973
  },
  {
   "fecha": "2022-05-23T07:45:00.000-0300",
+  "demHoy": 1032,
   "demAyer": 810,
   "demSemanaAnt": 980,
+  "tempHoy": 10.3,
   "tempAyer": 10.3,
   "tempSemanaAnt": 8.3
  },
  {
   "fecha": "2022-05-23T07:50:00.000-0300",
+  "demHoy": 1040,
   "demAyer": 815,
   "demSemanaAnt": 981
  },
  {
   "fecha": "2022-05-23T07:55:00.000-0300",
+  "demHoy": 1039,
   "demAyer": 817,
   "demSemanaAnt": 984
  },
  {
   "fecha": "2022-05-23T08:00:00.000-0300",
+  "demHoy": 1044,
   "demAyer": 819,
   "demSemanaAnt": 994,
   "demPrevista": 986,
+  "tempHoy": 10.7,
   "tempAyer": 10.5,
   "tempSemanaAnt": 8.4,
   "tempPrevista": 7
  },
  {
   "fecha": "2022-05-23T08:05:00.000-0300",
+  "demHoy": 1044,
   "demAyer": 829,
   "demSemanaAnt": 993
  },
  {
   "fecha": "2022-05-23T08:10:00.000-0300",
+  "demHoy": 1056,
   "demAyer": 830,
   "demSemanaAnt": 991
  },
  {
   "fecha": "2022-05-23T08:15:00.000-0300",
+  "demHoy": 1054,
   "demAyer": 834,
   "demSemanaAnt": 990,
+  "tempHoy": 11.4,
   "tempAyer": 10.4,
   "tempSemanaAnt": 8.6
  },
  {
   "fecha": "2022-05-23T08:20:00.000-0300",
+  "demHoy": 1060,
   "demAyer": 837,
   "demSemanaAnt": 1004
  },
  {
   "fecha": "2022-05-23T08:25:00.000-0300",
+  "demHoy": 1062,
   "demAyer": 847,
   "demSemanaAnt": 1003
  },
  {
   "fecha": "2022-05-23T08:30:00.000-0300",
+  "demHoy": 1065,
   "demAyer": 852,
   "demSemanaAnt": 1009,
+  "tempHoy": 12.5,
   "tempAyer": 10.9,
   "tempSemanaAnt": 9
  },
  {
   "fecha": "2022-05-23T08:35:00.000-0300",
+  "demHoy": 1070,
   "demAyer": 865,
   "demSemanaAnt": 1006
  },
  {
   "fecha": "2022-05-23T08:40:00.000-0300",
+  "demHoy": 1064,
   "demAyer": 859,
   "demSemanaAnt": 1014
  },
  {
   "fecha": "2022-05-23T08:45:00.000-0300",
+  "demHoy": 1064,
   "demAyer": 866,
   "demSemanaAnt": 1015,
+  "tempHoy": 13.4,
   "tempAyer": 11.2,
   "tempSemanaAnt": 9.5
  },
  {
   "fecha": "2022-05-23T08:50:00.000-0300",
+  "demHoy": 1070,
   "demAyer": 867,
   "demSemanaAnt": 1015
  },
  {
   "fecha": "2022-05-23T08:55:00.000-0300",
+  "demHoy": 1064,
   "demAyer": 876,
   "demSemanaAnt": 1012
  },
  {
   "fecha": "2022-05-23T09:00:00.000-0300",
+  "demHoy": 1071,
   "demAyer": 881,
   "demSemanaAnt": 1013,
   "demPrevista": 970,
+  "tempHoy": 14,
   "tempAyer": 12.1,
   "tempSemanaAnt": 10.1
  },
  {
   "fecha": "2022-05-23T09:05:00.000-0300",
+  "demHoy": 1068,
   "demAyer": 880,
   "demSemanaAnt": 1014
  },
  {
   "fecha": "2022-05-23T09:10:00.000-0300",
+  "demHoy": 1059,
   "demAyer": 887,
   "demSemanaAnt": 1015
  },

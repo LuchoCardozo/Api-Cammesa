@@ -45,6 +45,13 @@ th{
 .grafico{
     margin: auto;
     width: 90%;
-    height: 60%;
+    height: 30%;
+    display: block;
+}
+
+.grafico1{
+    margin: auto;
+    width: 90%;
+    height: 5%;
     display: block;
 }
