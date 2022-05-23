@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="/css/style.css">
     <title>CHACO</title>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -18,32 +21,107 @@
         </ul>
     </nav>
     <h1>DEMANDA CHACO</h1>
-    <div class="tabla">
-        <table >
-            <thead>
-                <tr>
-                    <th>Fecha</th>
-                    <th>demHoy</th>
-                    <th>demAyer</th>
-                    <th>demSemAnt</th>
-                </tr>
-            </thead>
-            
-            <tbody>
-                <% chaco.forEach(dat => { %>
-                    <tr>
-                        <td><%= dat.fecha %></td>
-                        <td><%= dat.demHoy %></td>
-                        <td><%= dat.demAyer %></td>
-                        <td><%= dat.demSemanaAnt %></td>
-                    </tr>
-                    <% }) %>
-                </tbody>
-            </table>
-        </div>
+            <div class="grafico" >
+            <canvas id="myChart" ></canvas>
+            </div>
+                <div class="tabla">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>demHoy</th>
+                                <th>demAyer</th>
+                                <th>demSemAnt</th>
+                            </tr>
+                        </thead>
 
-        <div>
-            
-        </div>
+                        <tbody>
+                            <% chaco.forEach(dat=> { %>
+                                <tr>
+                                    <td>
+                                        <%= dat.fecha %>
+                                    </td>
+                                    <td>
+                                        <%= dat.demHoy %>
+                                    </td>
+                                    <td>
+                                        <%= dat.demAyer %>
+                                    </td>
+                                    <td>
+                                        <%= dat.demSemanaAnt %>
+                                    </td>
+                                </tr>
+                                <% }) %>
+                        </tbody>
+                    </table>
+                </div>
+
+ <script >
+
+chart();
+
+let fecha = [];
+let demHoy = [];
+let demAyer = [];
+let demSemanaAnt = []
+
+async function dataChaco(){
+const response  = await  fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=1892')
+const chaco = await response.json()
+chaco.forEach(element => {
+
+    fecha.push(element.fecha)
+    demHoy.push(element.demHoy)
+    demAyer.push(element.demAyer)
+    demSemanaAnt.push(element.demSemanaAnt)
+});
+console.log(fecha);
+console.log(demHoy);
+}
+async function chart (){
+await dataChaco();
+ const ctx = document.getElementById('myChart');
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: fecha,
+            datasets: [{
+                label: 'DemAyer',
+                data: demAyer,
+                backgroundColor: 'transparent',
+                borderColor: 'red',
+                borderWidth:2,
+                pointRadius: 1 
+            },
+            {
+                label: 'DemHoy',
+                data: demHoy,
+                backgroundColor: 'transparent',
+                borderColor: 'green',
+                borderWidth:2,
+                pointRadius: 0 
+            },
+            {
+                label: 'DemSemAnt',
+                data: demSemanaAnt,
+                backgroundColor: 'transparent',
+                borderColor: 'blue',
+                borderWidth:2,
+                pointRadius: 0 
+            }
+        ]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    })
+
+}
+ </script>
 </body>
+
 </html>

@@ -43,7 +43,8 @@ th{
 }
 
 .grafico{
-    width: 60%;
+    margin: auto;
+    width: 90%;
     height: 60%;
     display: block;
 }
