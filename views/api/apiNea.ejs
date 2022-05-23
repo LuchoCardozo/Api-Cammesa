@@ -19,6 +19,14 @@
         </ul>
     </nav>
     <h1>DEMANDA NEA</h1>
+
+    <div class="grafico" >
+        <canvas id="myChart" width="400"  height="200"></canvas>
+        </div>
+
+        <div class="grafico1" >
+            <canvas id="myTemp" width="400" height="100"></canvas>
+            </div>
     <div class="tabla">
         <table >
             <thead>
@@ -48,9 +56,110 @@
                 </tbody>
             </table>
         </div>
+        <script >
 
-        <div>
+            chart();
             
-        </div>
+            let fecha = [];
+            let demHoy = [];
+            let demAyer = [];
+            let demSemanaAnt = [];
+            let tempHoy = [];
+            let tempAyer =[];
+            let tempSemanaAnt = [];
+            async function dataNea(){
+            const response  = await fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=418')
+            const nea = await response.json()
+            nea.forEach(element => {
+                fecha.push(element.fecha)
+                demHoy.push(element.demHoy)
+                demAyer.push(element.demAyer)
+                demSemanaAnt.push(element.demSemanaAnt)
+                tempHoy.push(element.tempHoy)
+                tempAyer.push(element.tempAyer)
+                tempSemanaAnt.push(element.tempSemanaAnt)
+            });
+            }
+            async function chart (){
+            await dataNea();
+                const myChart = new Chart(document.getElementById('myChart'), {
+                    type: 'line',
+                    data: {
+                        labels: fecha,
+                        datasets: [{
+                            label: 'DemAyer',
+                            data: demAyer,
+                            backgroundColor: 'transparent',
+                            borderColor: 'red',
+                            borderWidth:2,
+                            pointRadius: 1 
+                        },
+                        {
+                            label: 'DemHoy',
+                            data: demHoy,
+                            backgroundColor: 'transparent',
+                            borderColor: 'green',
+                            borderWidth:2,
+                            pointRadius: 0 
+                        },
+                        {
+                            label: 'DemSemAnt',
+                            data: demSemanaAnt,
+                            backgroundColor: 'transparent',
+                            borderColor: 'blue',
+                            borderWidth:2,
+                            pointRadius: 0 
+                        }
+                    ]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+                const myTemp = new Chart(document.getElementById('myTemp'), {
+                    type: 'line',
+                    data: {
+                        labels: fecha,
+                        datasets: [{
+                            label: 'TempAyer',
+                            data: tempAyer,
+                            backgroundColor: 'transparent',
+                            borderColor: 'red',
+                            borderWidth:2,
+                            pointRadius: 1 
+                        },
+                        {
+                            label: 'TempHoy',
+                            data: tempHoy,
+                            backgroundColor: 'transparent',
+                            borderColor: 'green',
+                            borderWidth:2,
+                            pointRadius: 1 
+                        },
+                        {
+                            label: 'TempSemAnt',
+                            data: tempSemanaAnt,
+                            backgroundColor: 'transparent',
+                            borderColor: 'blue',
+                            borderWidth:2,
+                            pointRadius: 1 
+                        }
+                    ]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                })
+            
+            }
+             </script>
 </body>
 </html>

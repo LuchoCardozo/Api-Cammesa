@@ -577,21 +577,25 @@
  },
  {
   "fecha": "2022-05-23T08:05:00.000-0300",
+  "demHoy": 105,
   "demAyer": 97,
   "demSemanaAnt": 102
  },
  {
   "fecha": "2022-05-23T08:10:00.000-0300",
+  "demHoy": 106,
   "demAyer": 97,
   "demSemanaAnt": 100
  },
  {
   "fecha": "2022-05-23T08:15:00.000-0300",
+  "demHoy": 106,
   "demAyer": 98,
   "demSemanaAnt": 102
  },
  {
   "fecha": "2022-05-23T08:20:00.000-0300",
+  "demHoy": 108,
   "demAyer": 98,
   "demSemanaAnt": 102
  },
