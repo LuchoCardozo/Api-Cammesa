@@ -17,7 +17,6 @@ const neaApiController = {
                 res.render("api/apiNea", { nea: JSON.parse(neaDem) })
             })
             .catch(err => console.log(err));
-
     }
 };
 
