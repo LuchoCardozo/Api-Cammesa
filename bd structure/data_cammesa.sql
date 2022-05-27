@@ -1,47 +1,42 @@
 CREATE DATABASE data_cammesa;
 USE data_cammesa;
 CREATE TABLE dem_chaco (
-id BIGINT NOT NULL auto_increment,
-fecha datetime,
+fecha datetime not null,
 demHoy int,
 demAyer int,
-demSemAnt int,
-primary key (id)
+demSemanaAnt int,
+primary key (fecha)
 );
 CREATE TABLE dem_corrientes (
-id BIGINT NOT NULL auto_increment,
-fecha datetime,
+fecha datetime not null,
 demHoy int,
 demAyer int,
-demSemAnt int,
-primary key (id)
+demSemanaAnt int,
+primary key (fecha)
 );
 CREATE TABLE dem_formosa (
-id BIGINT NOT NULL auto_increment,
-fecha datetime,
+fecha datetime not null,
 demHoy int,
 demAyer int,
-demSemAnt int,
-primary key (id)
+demSemanaAnt int,
+primary key (fecha)
 );
 CREATE TABLE dem_misiones (
-id BIGINT NOT NULL auto_increment,
-fecha datetime,
+fecha datetime not null,
 demHoy int,
 demAyer int,
-demSemAnt int,
-primary key (id)
+demSemanaAnt int,
+primary key (fecha)
 );
 CREATE TABLE dem_nea (
-id BIGINT NOT NULL auto_increment,
-fecha datetime,
+fecha datetime not null,
 demHoy int,
 demAyer int,
-demSemAnt int,
+demSemanaAnt int,
 tempHoy double,
 tempAyer double,
-tempSemAnt double,
-primary key (id)
+tempSemanaAnt double,
+primary key (fecha)
 );
 CREATE TABLE users_managements (
 id INT NOT NULL auto_increment,

@@ -2,7 +2,7 @@ const express = require("express")
 const fetch = require("node-fetch");
 const db = require("../database/models");
 const { Op } = require("sequelize");
-const moment = require("moment")
+const moment = require("moment");
 
 // const path = require("path")
 // const fs = require("fs");
@@ -12,14 +12,10 @@ const moment = require("moment")
 setInterval( async () => {
 	const res = await  fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=1892');
     const chaco = await res.json();
-    chaco.forEach(data => {
-        db.DemChaco.create({
-            fecha: data.fecha,
-            demHoy: data.demHoy,
-            demAyer: data.demAyer,
-            demSemAnt: data.demSemanaAnt
-        })
-    })
+       db.DemChaco.bulkCreate(chaco,{
+        updateOnDuplicate:['fecha','demHoy'],
+      })
+
 },120000);
 
 const chacoApiController = {

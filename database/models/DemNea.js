@@ -1,17 +1,11 @@
 module.exports = (sequelize, dataTypes) => {
     let alias = 'DemNea'; 
     let cols = {
-        id: {
-            type: dataTypes.BIGINT(10).UNSIGNED,
-            primaryKey: true,
-            allowNull: false,
-            autoIncrement: true
-        },
         fecha: {
             type: dataTypes.DATE(),
+            primaryKey: true,
             allowNull: false
         },
-
         demHoy: {
             type: dataTypes.BIGINT(10),
         },
@@ -19,11 +13,10 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.BIGINT(10),
             allowNull: false
         },
-        demSemAnt: {
+        demSemanaAnt: {
             type: dataTypes.BIGINT(10),
             allowNull: false
         },
-
         tempHoy: {
             type: dataTypes.DOUBLE(10,2),
             allowNull: false
@@ -32,10 +25,10 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.DOUBLE(10,2),
             allowNull: false
         },
-        tempSemAnt: {
+        tempSemanaAnt: {
             type: dataTypes.DOUBLE(10,2),
             allowNull: false
-        },
+        }
     };
     let config = {
         tableName: 'dem_nea',

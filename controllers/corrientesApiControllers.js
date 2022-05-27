@@ -1,24 +1,32 @@
 const express = require("express")
-const path = require("path")
-const fs = require("fs");
 const fetch = require("node-fetch");
+const db = require("../database/models");
+const { Op } = require("sequelize");
+const moment = require("moment");
 
-const corrientesFilePath = path.join(__dirname, '../data/corrientes.json');
-const corrientesDem = fs.readFileSync(corrientesFilePath, 'utf-8');
+
+setInterval( async () => {
+	const res = await  fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=1893');
+    const corrientes = await res.json();
+       db.DemCorrientes.bulkCreate(corrientes,{
+        updateOnDuplicate:['fecha','demHoy'],
+      })
+
+},120000);
 
 const corrientesApiController = {
     apiCorrientes: (req, res) => {
-        fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=1893')
-            .then(response => response.json())
-            .then(data => {
-                let corrientes = data;
-                const newJSON = JSON.stringify(corrientes, null, 1);
-                fs.writeFileSync(corrientesFilePath, newJSON, "utf-8");
-                res.render("api/apiCorrientes", { corrientes: JSON.parse(corrientesDem) })
+        db.DemCorrientes.findAll()
+        .then(corrientes =>{
+            corrientes.forEach(data => {
+             data.dataValues.fecha = moment(data.fecha).format('D-M-Y HH:mm');
             })
-            .catch(err => console.log(err));
-    }
+            res.render("api/apiCorrientes", { corrientes })
+        })
+        .catch(err =>{
+            console.log(err)
+        })
 
-};
+}};
 
 module.exports = corrientesApiController
