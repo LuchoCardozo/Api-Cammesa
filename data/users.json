@@ -907,5 +907,14 @@
   "password": "$2a$10$gxKy84XiN5DlPrJiqHqfA.7EOYLLhlPRDGFf6Vxge4PLzUE2cJuXq",
   "country": "Argentina",
   "image": "1646266187693_img.jpg"
+ },
+ {
+  "id": 102,
+  "first_name": "LUIS ADOLFO",
+  "last_name": "CARDOZO",
+  "email": "chango@hotmail.com",
+  "password": "$2a$10$M24TTVeXSJ7ppHPvyOmjceVUSju8lYzEftggO4Cw19YKEC3OGxyw2",
+  "country": "Argentina",
+  "image": "1653695346218_img.png"
  }
 ]
