@@ -8,9 +8,8 @@ const guestMiddleware = require("../middlewares/guestMiddleware");
 const authMiddleware = require("../middlewares/authMiddleware");
 
 
-
 router.get ("/register", guestMiddleware  ,userController.register)
-router.post("/register",upload.single("image"),validationsUser,userController.processRegister)
+router.post("/register",upload.single("avatar"),validationsUser,userController.processRegister)
 
 router.get("/login",guestMiddleware,userController.login);
 router.post("/login",userController.loginProcess)

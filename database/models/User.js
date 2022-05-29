@@ -35,10 +35,6 @@ module.exports = (sequelize, dataTypes) => {
             type: dataTypes.STRING(250),
             allowNull: false
         },
-        adress: {
-            type: dataTypes.STRING(250),
-            allowNull: false
-        },
         category_id: dataTypes.BIGINT(10)
     };
     let config = {

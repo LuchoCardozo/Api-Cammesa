@@ -11,23 +11,21 @@ module.exports = (sequelize, dataTypes) => {
         },
         demAyer: {
             type: dataTypes.BIGINT(10),
-            allowNull: false
         },
         demSemanaAnt: {
             type: dataTypes.BIGINT(10),
-            allowNull: false
+        },
+        demPrevista: {
+            type: dataTypes.BIGINT(10),
         },
         tempHoy: {
             type: dataTypes.DOUBLE(10,2),
-            allowNull: false
         },
         tempAyer: {
             type: dataTypes.DOUBLE(10,2),
-            allowNull: false
         },
         tempSemanaAnt: {
             type: dataTypes.DOUBLE(10,2),
-            allowNull: false
         }
     };
     let config = {

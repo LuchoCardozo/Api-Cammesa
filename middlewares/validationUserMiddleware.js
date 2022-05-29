@@ -17,21 +17,24 @@ const validationsUser = [
     body("password")
        .notEmpty()
        .withMessage("debe completar con una contraseña"),
-    body("country")
+    body("managements")
        .notEmpty()
-       .withMessage("debe seleccionar su pais"),
-    body("image")
+       .withMessage("debe seleccionar su gerencia"),
+    body("avatar")
        .custom((value,{ req })=> {
           let file = req.file;
+          let avDef = req.body.avatar_def
           let acceptedExtensions = [".jpg", ".jpeg", ".png", ".gif"];
-          if (!file) {
-             throw new Error("tienes que subir una imagen")
-          } else {
-             let fileExtension = path.extname(file.originalname);
-             if (!acceptedExtensions.includes(fileExtension)){
-                throw new Error(`las extensiones de archivos permitidos son ${acceptedExtensions.join(", ")}`)
-             }
-          } return true
+          if (!file && !avDef) {
+            throw new Error('Tienes que subir una imagen o tildar Usar avatar');
+        } else if (file && !avDef) {
+            let fileExtension = path.extname(file.originalname);
+            if (!acceptedExtensions.includes(fileExtension)) {
+                throw new Error(`las extensiones del archivo permitidas son ${acceptedExtensions.join(',')} `);
+            }
+        } 
+          
+          return true
        })
  ]
  

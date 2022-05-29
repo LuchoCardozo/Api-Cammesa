@@ -11,7 +11,7 @@ setInterval( async () => {
         updateOnDuplicate:['fecha','demHoy'],
       })
 
-},120000);
+},80000);
 
 const misionesApiController = {
     apiMisiones: (req, res) => {

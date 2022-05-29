@@ -1,6 +1,5 @@
 window.addEventListener('load',()=>{
 
-
 chart();
 
 let fecha = [

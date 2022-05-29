@@ -12,7 +12,7 @@ setInterval( async () => {
         updateOnDuplicate:['fecha','demHoy'],
       })
 
-},120000);
+},80000);
 
 const formosaApiController = {
     apiFormosa: (req, res) => {

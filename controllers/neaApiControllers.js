@@ -12,7 +12,7 @@ setInterval( async () => {
         updateOnDuplicate:['fecha','demHoy','tempHoy'],
       })
 
-},120000);
+},80000);
 
 const neaApiController = {
     apiNea: (req, res) => {
