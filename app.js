@@ -4,7 +4,6 @@ const path = require("path");
 const bodyParser = require('body-parser')
 const methodOverride = require('method-override');
 const mainRouter = require("./routers/mainRouter");
-const productRouter = require("./routers/productRouter");
 const apiRouter = require("./routers/apiRouter");
 const userRouter = require("./routers/userRouter");
 const session = require("express-session")
@@ -39,7 +38,6 @@ app.listen(process.env.PORT || 3000, () => {
 
 
 app.use("/", mainRouter);
-app.use("/products", productRouter)
 app.use("/api", apiRouter);
 app.use("/users", userRouter)
 

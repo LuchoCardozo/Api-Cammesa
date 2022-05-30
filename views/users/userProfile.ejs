@@ -1,43 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<%- include('../partials/head',,{title:'Profile'}); %>
 
 <body>
-    <nav>
-        <div>
 
-            <div>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Products</a></li>
-                </ul>
-
-                <ul>
-                    <% if (locals.isLogged) { %>
-                        <li> <a href="/users/profile">
-                                <img src="../image/users/<%= locals.userLogged.avatar %> " width="40"
-                                    style="border-radius: 100%;">
-                                <%= locals.userLogged.first_name %>
-                                    <%= locals.userLogged.last_name %>
-                            </a></li>
-
-                        <li><a href="/users/logout">Logout</a></li>
-                        <% } else { %>
-
-                            <li class="nav-item"><a href="/users/register">Register</a></li>
-                            <li class="nav-item"><a href="/users/login">Login</a></li>
-                            <% } %>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <%- include('../partials/header') %>
 
     <div class="container" style="margin-top: 40px;">
         <div class="row">
