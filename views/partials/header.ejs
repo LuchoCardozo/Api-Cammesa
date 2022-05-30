@@ -1,36 +1,29 @@
 <header>
+    <div class="logo">
+        <a href="/"><img src="/image/products/logo2.png" alt=""></a>
+    </div>
     <nav>
-        <div class="logo">
-            <img src="/image/products/logo2.png" alt="">
-        </div>
         <ul>
-            <div class="dropdown">
-                <button class="dropbtn"> D. PROVINCIA
-                    <i class="fa fa-caret-down"></i>
-                  </button>
+            <li class="dropdown">
+                <button class="dropbtn"> DEM PROVINCIA <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
-                <li><a href="/api/demandaChaco">DEMANDA CHACO</a></li>
-                <li><a href="/api/demandaCorrientes">DEMANDA CORRIENTES</a></li>
-                <li><a href="/api/demandaFormosa">DEMANDA FORMOSA</a></li>
-                <li><a href="/api/demandaMisiones">DEMANDA MISIONES</a></li>
-                <li><a href="/api/demandaNea">DEMANDA NEA</a></li>
+                <a href="/api/demandaChaco">DEM CHACO</a>
+                <a href="/api/demandaCorrientes">DEM CORRIENTES</a>
+                <a href="/api/demandaFormosa">DEM FORMOSA</a>
+                <a href="/api/demandaMisiones">DEM MISIONES</a>
+                <a href="/api/demandaNea">DEM NEA</a>
             </div>
-            </div>
-            <li><a href="/">Home</a></li>
+            </li>
+           
             <li><a href="/">Acerca</a></li>
             <li><a href="/">Contacto</a></li>
             <% if (locals.isLogged) { %>
-                <li> <a href="/users/profile">
-                        <img src="../image/users/<%= locals.userLogged.avatar %> " width="40"
-                            style="border-radius: 100%;">
-                        <%= locals.userLogged.first_name %>
-                            <%= locals.userLogged.last_name %>
-                    </a></li>
-                <li><a href="/users/logout">Logout</a></li>
+            <li><a href="/users/profile"><img src="../image/users/<%= locals.userLogged.avatar %> " width="40"style="border-radius: 100%;"></a></li>
+            <li><a href="/users/logout">Logout</a></li>
                 <% } else { %>
-                    <li class="nav-item"><a href="/users/register">Register</a></li>
-                    <li class="nav-item"><a href="/users/login">Login</a></li>
-                    <% } %>
+            <li class="nav-item"><a href="/users/register">Register</a></li>
+            <li class="nav-item"><a href="/users/login">Login</a></li>
+                <% } %>
         </ul>
     </nav>
 

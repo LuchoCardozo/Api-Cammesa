@@ -1,13 +1,15 @@
 <%- include('../partials/head',{title:'Misiones'}); %>
 <body>
     <%- include('../partials/header') %>
-    <h1>DEMANDA MISIONES</h1>
+    <main>
 
-    <div class="grafico" >
-        <canvas id="myChart" ></canvas>
+        <h1>DEMANDA MISIONES</h1>
+        
+        <div class="grafico" >
+            <canvas id="myChart" ></canvas>
         </div>
-    <div class="tabla">
-        <table >
+        <div class="tabla">
+            <table >
             <thead>
                 <tr>
                     <th>Fecha</th>
@@ -29,6 +31,7 @@
                 </tbody>
             </table>
         </div>
-<script src="/js/grafMisiones.js"></script>
-</body>
-</html>
+    </main>
+        <script src="/js/grafMisiones.js"></script>
+    </body>
+    </html>

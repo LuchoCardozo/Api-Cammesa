@@ -1,28 +1,31 @@
 <%- include('../partials/head',{title:'Login'}); %>
 <body>
     <%- include('../partials/header') %>
-    <h1>Ingrese aca</h1><br>
+    <main>
 
-<form action="/users/login" method="POST">
-
-<input type="email" name="email" id="email" placeholder="ingrese su email registrado"> <br>
-<% if (locals.errors && errors.email) { %>
-    <div><%= errors.email.msg %> </div>
- 
-<% } %>
-
-<input type="password" name="password" id="password" placeholder="ingrese su contraseña"><br>
-<div >
-    <div >
-        <label >
-            <input type="checkbox"  name="remember_user">Recordar mi usuario
-        </label>
-    </div>
-</div>
-
-
-<button type="submit">INGRESAR</button>
-</form>
+        <h1>Ingrese aca</h1><br>
+        
+        <form action="/users/login" method="POST">
+            
+            <input type="email" name="email" id="email" placeholder="ingrese su email registrado"> <br>
+            <% if (locals.errors && errors.email) { %>
+                <div><%= errors.email.msg %> </div>
+                
+                <% } %>
+                
+                <input type="password" name="password" id="password" placeholder="ingrese su contraseña"><br>
+                <div >
+                    <div >
+                        <label >
+                            <input type="checkbox"  name="remember_user">Recordar mi usuario
+                        </label>
+                    </div>
+                </div>
+                
+                
+                <button type="submit">INGRESAR</button>
+            </form>
+        </main>
 
     
 </body>

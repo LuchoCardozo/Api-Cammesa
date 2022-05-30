@@ -2,43 +2,48 @@
 
 <body>
     <%- include('../partials/header') %>
-    <h1>DEMANDA CHACO</h1>
-            <div class="grafico" >
-            <canvas id="myChart" ></canvas>
+    <main>
+
+        <h1>DEMANDA CHACO</h1>
+        <div class="maximas">
+            <div>
+                <h2>Max Hoy</h2>
+                <h2 id="maxHoy"></h2>
             </div>
-                <div class="tabla">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Fecha</th>
-                                <th>demHoy</th>
-                                <th>demAyer</th>
-                                <th>demSemAnt</th>
-                            </tr>
-                        </thead>
+            <div>
+                <h2>Max Ayer</h2>
+                <h2 id="maxAyer"></h2>
+            </div>
+            <div>
+                <h2>Max Sem Ant</h2>
+                <h2 id="maxSemAnt"></h2>
+            </div>
+        </div>
 
-                        <tbody>
-                            <% chaco.forEach(dat=> { %>
-                                <tr>
-                                    <td>
-                                        <%= dat.fecha %>
-                                    </td>
-                                    <td>
-                                        <%= dat.demHoy %>
-                                    </td>
-                                    <td>
-                                        <%= dat.demAyer %>
-                                    </td>
-                                    <td>
-                                        <%= dat.demSemanaAnt %>
-                                    </td>
-                                </tr>
-                                <% }) %>
+        <div class="grafico" >
+            <canvas id="myChart" ></canvas>
+        </div>
+        <div class="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>demHoy</th>
+                        <th>demAyer</th>
+                        <th>demSemAnt</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="content">
+            
+                       
+              
                         </tbody>
-                    </table>
-                </div>
-
-<script src="/js/grafChaco.js"></script>
-</body>
-
-</html>
+                        </table>
+                    </div>
+                </main>
+                
+                <script src="/js/grafChaco.js"></script>
+                </body>
+                
+                </html>
