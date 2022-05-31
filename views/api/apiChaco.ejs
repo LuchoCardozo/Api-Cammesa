@@ -1,49 +1,45 @@
 <%- include('../partials/head',{title:'Chaco'}) %>
 
-<body>
-    <%- include('../partials/header') %>
-    <main>
+    <body>
+        <%- include('../partials/header') %>
+            <main>
 
-        <h1>DEMANDA CHACO</h1>
-        <div class="maximas">
-            <div>
-                <h2>Max Hoy</h2>
-                <h2 id="maxHoy"></h2>
-            </div>
-            <div>
-                <h2>Max Ayer</h2>
-                <h2 id="maxAyer"></h2>
-            </div>
-            <div>
-                <h2>Max Sem Ant</h2>
-                <h2 id="maxSemAnt"></h2>
-            </div>
-        </div>
-
-        <div class="grafico" >
-            <canvas id="myChart" ></canvas>
-        </div>
-        <div class="tabla">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Fecha</th>
-                        <th>demHoy</th>
-                        <th>demAyer</th>
-                        <th>demSemAnt</th>
-                    </tr>
-                </thead>
-                
-                <tbody id="content">
-            
-                       
-              
-                        </tbody>
-                        </table>
+                <h1>DEMANDA CHACO</h1>
+                <div class="maximas">
+                    <div>
+                        <h3>Max Hoy</h3>
+                        <h2 id="maxHoy"></h2>
                     </div>
-                </main>
-                
-                <script src="/js/grafChaco.js"></script>
-                </body>
-                
-                </html>
+                    <div>
+                        <h3>Max Ayer</h3>
+                        <h2 id="maxAyer"></h2>
+                    </div>
+                    <div>
+                        <h3>Max Sem Ant</h3>
+                        <h2 id="maxSemAnt"></h2>
+                    </div>
+                </div>
+
+                <div class="grafico">
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="tabla">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>fecha</th>
+                                <th>dem hoy</th>
+                                <th>dem ayer</th>
+                                <th>dem sem ant</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="content"></tbody>
+                    </table>
+                </div>
+            </main>
+
+            <script src="/js/grafChaco.js"></script>
+    </body>
+
+    </html>

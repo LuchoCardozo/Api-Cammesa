@@ -1,3 +1,6 @@
+window.addEventListener('load',()=>{
+
+
 let tbody = document.getElementById('content');
 let maxHoy = document.getElementById('maxHoy');
 let maxAyer = document.getElementById('maxAyer');
@@ -49,10 +52,13 @@ function arrayMax(arrayDem) {
     return arrayDem.reduce((a, b) => Math.max(a, b));
   }
 
-maxHoy.innerHTML += arrayMax(demHoyMax)
-maxAyer.innerHTML += arrayMax(demAyer)
-maxSemAnt.innerHTML += arrayMax(demSemanaAnt)
+maxHoy.innerHTML += fecha[demHoyMax.indexOf(arrayMax(demHoyMax))] + ' hs   '+ arrayMax(demHoyMax)+' MW'
+maxAyer.innerHTML += fecha[demAyer.indexOf(arrayMax(demAyer))] + ' hs   '+ arrayMax(demAyer)+' MW'
+maxSemAnt.innerHTML += arrayMax(demSemanaAnt)+' MW'
+
 }
+
+
 async function chart (){
 await dataChaco();
  const ctx = document.getElementById('myChart');
@@ -66,7 +72,9 @@ await dataChaco();
                 backgroundColor: 'transparent',
                 borderColor: 'red',
                 borderWidth:2,
-                pointRadius: 1 
+                pointRadius: 0,
+                fill: false,
+                tension: 0.1,
             },
             {
                 label: 'DemHoy',
@@ -74,7 +82,9 @@ await dataChaco();
                 backgroundColor: 'transparent',
                 borderColor: 'green',
                 borderWidth:2,
-                pointRadius: 0 
+                pointRadius: 0,
+                fill: false,
+                tension: 0.1,
             },
             {
                 label: 'DemSemAnt',
@@ -82,18 +92,28 @@ await dataChaco();
                 backgroundColor: 'transparent',
                 borderColor: 'blue',
                 borderWidth:2,
-                pointRadius: 0 
+                pointRadius: 0,
+                fill: false,
+                tension: 0.1,
             }
         ]
         },
         options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
+            plugins: {
+                
+            },
+            scales:  {
+            y: {
+                type: 'linear',
+                beginAtZero: true
             }
         }
+
+    }
+
+
     })
 
 }
 
+})
