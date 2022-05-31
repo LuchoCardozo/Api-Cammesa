@@ -3,33 +3,39 @@
     <%- include('../partials/header') %>
 <main>
     <h1>DEMANDA CORRIENTES</h1>
-    <div class="grafico" >
-        <canvas id="myChart" ></canvas>
+    <div class="maximas">
+        <div>
+            <h3>Max Hoy</h3>
+            <h2 id="maxHoy"></h2>
         </div>
+        <div>
+            <h3>Max Ayer</h3>
+            <h2 id="maxAyer"></h2>
+        </div>
+        <div>
+            <h3>Max Sem Ant</h3>
+            <h2 id="maxSemAnt"></h2>
+        </div>
+    </div>
+
+    <div class="grafico">
+        <canvas id="myChart"></canvas>
+    </div>
     <div class="tabla">
-        <table >
+        <table>
             <thead>
                 <tr>
-                    <th>Fecha</th>
-                    <th>demHoy</th>
-                    <th>demAyer</th>
-                    <th>demSemAnt</th>
+                    <th>hora</th>
+                    <th>dem hoy</th>
+                    <th>dem ayer</th>
+                    <th>dem sem ant</th>
                 </tr>
             </thead>
-            
-            <tbody>
-                <% corrientes.forEach(dat => { %>
-                    <tr>
-                        <td><%= dat.fecha %></td>
-                        <td><%= dat.demHoy %></td>
-                        <td><%= dat.demAyer %></td>
-                        <td><%= dat.demSemanaAnt %></td>
-                    </tr>
-                    <% }) %>
-                </tbody>
-            </table>
-        </div>
-    </main>
+
+            <tbody id="content"></tbody>
+        </table>
+    </div>
+</main>
      <script src="/js/grafCorrientes.js"></script>
 </body>
 </html>

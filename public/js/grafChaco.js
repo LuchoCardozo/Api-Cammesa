@@ -54,7 +54,7 @@ function arrayMax(arrayDem) {
 
 maxHoy.innerHTML += fecha[demHoyMax.indexOf(arrayMax(demHoyMax))] + ' hs   '+ arrayMax(demHoyMax)+' MW'
 maxAyer.innerHTML += fecha[demAyer.indexOf(arrayMax(demAyer))] + ' hs   '+ arrayMax(demAyer)+' MW'
-maxSemAnt.innerHTML += arrayMax(demSemanaAnt)+' MW'
+maxSemAnt.innerHTML += fecha[demSemanaAnt.indexOf(arrayMax(demSemanaAnt))] + ' hs   '+arrayMax(demSemanaAnt)+' MW'
 
 }
 

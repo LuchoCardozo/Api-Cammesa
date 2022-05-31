@@ -132,7 +132,6 @@ main h1 {
   display: flex;
   flex-direction: row;
   margin: auto;
-
 }
 
 .maximas div {
@@ -140,19 +139,16 @@ main h1 {
   margin: auto;
   color: #fff;
   padding: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   text-align: end;
   text-transform: uppercase;
   background: rgba(7, 1, 110, 0.37);
   border-radius: 16px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(7, 1, 110, 0.13);
+  border: 1px solid rgba(7, 1, 110, 0.10);
   box-shadow: 5px 6px 11px -5px rgba(50, 255, 255, 0.69);
 }
-
-
-
 
 /****End Style maximas****/
 
@@ -165,7 +161,7 @@ main h1 {
   background-color: #fff;
   padding: 15px;
   border-radius: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 15px;
 }
 
 .grafico1 {
@@ -174,30 +170,35 @@ main h1 {
   background-color: #fff;
   padding: 15px;
   border-radius: 15px;
+  margin-bottom: 15px;
 }
 
 table{
-  width: 50vw;
-  background-color: #FFFFFF;
+  width: 30vw;
+  background-color: rgba(7, 1, 110, 0.4);
   border-collapse: collapse;
-  border-color: #7ea8f8;
+  border-color: rgba(7, 1, 110, 1);
   border-style: solid;
-  color: #000000;
+  color: #fff;
   margin: auto;
 }
 
 table td, table th {
-  border-color: #7ea8f8;
-  border-style: solid;
+
   padding: 5px;
+  text-align: right;
+}
+
+
+table thead {
+  background-color: rgba(7, 1, 110, 1);
+  color:#fff;
   text-transform: uppercase;
   font-family: 'Syncopate', sans-serif;
 }
 
-table td {
-  text-align: right;
-}
-
-table thead {
-  background-color: #7ea8f8;
+table td{
+  font-family: sans-serif;
+  border-color: rgba(7, 1, 110, 0.4);
+  border-style: solid;
 }
