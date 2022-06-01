@@ -68,7 +68,7 @@ window.addEventListener('load',()=>{
                 datasets: [{
                     label: 'DemAyer',
                     data: demAyer,
-                    backgroundColor: 'transparent',
+                    backgroundColor: 'red',
                     borderColor: 'red',
                     borderWidth:2,
                     pointRadius: 0,
@@ -78,7 +78,7 @@ window.addEventListener('load',()=>{
                 {
                     label: 'DemHoy',
                     data: demHoy,
-                    backgroundColor: 'transparent',
+                    backgroundColor: 'green',
                     borderColor: 'green',
                     borderWidth:2,
                     pointRadius: 0,
@@ -88,7 +88,7 @@ window.addEventListener('load',()=>{
                 {
                     label: 'DemSemAnt',
                     data: demSemanaAnt,
-                    backgroundColor: 'transparent',
+                    backgroundColor: 'blue',
                     borderColor: 'blue',
                     borderWidth:2,
                     pointRadius: 0,

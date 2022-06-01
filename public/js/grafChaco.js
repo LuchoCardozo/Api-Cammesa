@@ -69,7 +69,7 @@ await dataChaco();
             datasets: [{
                 label: 'DemAyer',
                 data: demAyer,
-                backgroundColor: 'transparent',
+                backgroundColor: 'red',
                 borderColor: 'red',
                 borderWidth:2,
                 pointRadius: 0,
@@ -79,7 +79,7 @@ await dataChaco();
             {
                 label: 'DemHoy',
                 data: demHoy,
-                backgroundColor: 'transparent',
+                backgroundColor: 'green',
                 borderColor: 'green',
                 borderWidth:2,
                 pointRadius: 0,
@@ -89,7 +89,7 @@ await dataChaco();
             {
                 label: 'DemSemAnt',
                 data: demSemanaAnt,
-                backgroundColor: 'transparent',
+                backgroundColor: 'blue',
                 borderColor: 'blue',
                 borderWidth:2,
                 pointRadius: 0,
@@ -99,9 +99,30 @@ await dataChaco();
         ]
         },
         options: {
-            plugins: {
-                
+            interaction: {
+                intersect: false,
+                mode: 'index',
+              },
+              plugins: {
+                tooltip: {
+                    boxWidth:10,
+                    boxHeight:2,
+                    caretPadding: 50,
+                    caretSize: 0,
+                    titleFont:{
+                        size:25
+                    },
+                    bodyFont:{
+                        size:20
+                    },
+                    position: 'nearest',
+                    }
             },
+            hoverBackgroundColor:'white',
+            pointRadius: 0,
+            pointHoverRadius:5,
+            pointHoverBorderWidth:4,
+            pointHitRadius:10,
             scales:  {
             y: {
                 type: 'linear',

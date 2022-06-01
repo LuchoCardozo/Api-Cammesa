@@ -35,13 +35,15 @@ header {
   margin-left: 40px;
 }
 
+nav {
+  display: none;
+}
+
 nav ul li {
   overflow: hidden;
   display: inline-block;
 
 }
-
-
 
 nav a {
   float: left;
@@ -131,6 +133,7 @@ main h1 {
   width: 70vw;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -156,16 +159,17 @@ main h1 {
 /****** Start Style div Graf ****/
 
 .grafico {
-  width: 70vw;
+  width: 95vw;
   margin: auto;
   background-color: #fff;
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 15px;
+
 }
 
 .grafico1 {
-  width: 70vw;
+  width: 95vw;
   margin: auto;
   background-color: #fff;
   padding: 15px;
@@ -173,7 +177,7 @@ main h1 {
   margin-bottom: 15px;
 }
 
-table{
+table {
   width: 30vw;
   background-color: rgba(7, 1, 110, 0.4);
   border-collapse: collapse;
@@ -181,6 +185,7 @@ table{
   border-style: solid;
   color: #fff;
   margin: auto;
+  display: none;
 }
 
 table td, table th {
@@ -201,4 +206,22 @@ table td{
   font-family: sans-serif;
   border-color: rgba(7, 1, 110, 0.4);
   border-style: solid;
+}
+
+
+
+/************* start medias queries ************/
+@media (min-width: 768px){
+  table {
+    display: block
+  }
+  .grafico{
+    width: 80vw;
+  }
+  .grafico1{
+    width: 80vw;
+  }
+  nav{
+    display: block;
+  }
 }
