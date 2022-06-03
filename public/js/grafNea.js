@@ -11,6 +11,7 @@ let fecha = [];
 let demHoy = [];
 let demAyer = [];
 let demSemanaAnt = [];
+let demPrevista =[];
 let tempHoy = [];
 let tempAyer = [];
 let tempSemanaAnt = [];
@@ -20,17 +21,18 @@ async function dataNea() {
     const response = await fetch('https://api.cammesa.com/demanda-svc/demanda/ObtieneDemandaYTemperaturaRegion?id_region=418')
     const nea = await response.json()
     nea.forEach(element => {
+        console.log(nea);
         fecha.push(moment(element.fecha).format('HH:mm'))
         if(element.demHoy){
           demHoyMax.push(element.demHoy)
         }else{
             demHoyMax.push(0)
         }
+
         demHoy.push(element.demHoy)
         demAyer.push(element.demAyer)
         demSemanaAnt.push(element.demSemanaAnt)
-
-
+        demPrevista.push(element.demPrevista)
 
         tempHoy.push(element.tempHoy)
         tempAyer.push(element.tempAyer)
@@ -73,19 +75,19 @@ async function chart() {
         data: {
             labels: fecha,
             datasets: [{
-                label: 'DemAyer',
-                data: demAyer,
-                backgroundColor: 'red',
-                borderColor: 'red',
-                borderWidth: 2,
-                pointRadius: 1
-            },
-            {
                 label: 'DemHoy',
                 data: demHoy,
+                backgroundColor: 'red',
+                borderColor: 'red',
+                borderWidth: 1.5,
+                pointRadius: 0
+            },
+            {
+                label: 'DemAyer',
+                data: demAyer,
                 backgroundColor: 'green',
                 borderColor: 'green',
-                borderWidth: 2,
+                borderWidth: 1.5,
                 pointRadius: 0
             },
             {
@@ -93,12 +95,48 @@ async function chart() {
                 data: demSemanaAnt,
                 backgroundColor: 'blue',
                 borderColor: 'blue',
-                borderWidth: 2,
+                borderWidth: 1.5,
                 pointRadius: 0
+            },
+            {
+                label: 'DemPrevista',
+                data: demPrevista,
+                backgroundColor: 'magenta',
+                borderColor: 'magenta',
+                tension: 0.1,
+                borderWidth: 1.5,
+                pointRadius: 0,
+                spanGaps: true,
             }
             ]
         },
         options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                intersect: false,
+                mode: 'index',
+              },
+              plugins: {
+                tooltip: {
+                    boxWidth:10,
+                    boxHeight:2,
+                    caretPadding: 50,
+                    caretSize: 0,
+                    titleFont:{
+                        size:25
+                    },
+                    bodyFont:{
+                        size:20
+                    },
+                    position: 'nearest',
+                    }
+            },
+            hoverBackgroundColor:'white',
+            pointRadius: 0,
+            pointHoverRadius:5,
+            pointHoverBorderWidth:4,
+            pointHitRadius:10,
             scales: {
                 y: {
                     beginAtZero: true
@@ -111,32 +149,65 @@ async function chart() {
         data: {
             labels: fecha,
             datasets: [{
-                label: 'TempAyer',
-                data: tempAyer,
-                backgroundColor: 'transparent',
-                borderColor: 'red',
-                borderWidth: 2,
-                pointRadius: 1
-            },
-            {
+              
                 label: 'TempHoy',
                 data: tempHoy,
-                backgroundColor: 'transparent',
+                backgroundColor: 'red',
+                borderColor: 'red',
+                tension: 0.1,
+                borderWidth: 1.5,
+                pointRadius: 0,
+                spanGaps: true,
+            },
+            {
+                label: 'TempAyer',
+                data: tempAyer,
+                backgroundColor: 'green',
                 borderColor: 'green',
-                borderWidth: 2,
-                pointRadius: 1
+                tension: 0.1,
+                borderWidth: 1.5,
+                pointRadius: 0,
+                spanGaps: true,
             },
             {
                 label: 'TempSemAnt',
                 data: tempSemanaAnt,
-                backgroundColor: 'transparent',
+                backgroundColor: 'blue',
                 borderColor: 'blue',
-                borderWidth: 2,
-                pointRadius: 1
+                tension: 0.1,
+                borderWidth: 1.5,
+                pointRadius: 0,
+                spanGaps: true,
             }
             ]
         },
         options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: {
+                intersect: false,
+                mode: 'index',
+              },
+              plugins: {
+                tooltip: {
+                    boxWidth:10,
+                    boxHeight:2,
+                    caretPadding: 50,
+                    caretSize: 0,
+                    titleFont:{
+                        size:25
+                    },
+                    bodyFont:{
+                        size:20
+                    },
+                    position: 'nearest',
+                    }
+            },
+            hoverBackgroundColor:'white',
+            pointRadius: 0,
+            pointHoverRadius:5,
+            pointHoverBorderWidth:4,
+            pointHitRadius:10,
             scales: {
                 y: {
                     beginAtZero: true

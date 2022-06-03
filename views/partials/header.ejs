@@ -5,7 +5,7 @@
     <nav>
         <ul>
             <li class="dropdown">
-                <button class="dropbtn"> DEM PROVINCIA <i class="fa fa-caret-down"></i></button>
+                <button class="dropbtn">DEM PROVINCIA <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
                 <a href="/api/demandaChaco">DEM CHACO</a>
                 <a href="/api/demandaCorrientes">DEM CORRIENTES</a>
@@ -14,9 +14,14 @@
                 <a href="/api/demandaNea">DEM NEA</a>
             </div>
             </li>
+            <li class="dropdown">
+            <button class="dropbtn">NOSOTROS <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+            <a href="/about">ACERCA</a>
+            <a href="/contact">CONTACTO</a>
+            </div>
+            </li>
            
-            <li><a href="/about">Acerca</a></li>
-            <li><a href="/contact">Contacto</a></li>
             <% if (locals.isLogged) { %>
             <li><a href="/users/profile"><img src="../image/users/<%= locals.userLogged.avatar %> " width="40"style="border-radius: 100%;"></a></li>
             <li><a href="/users/logout">Logout</a></li>

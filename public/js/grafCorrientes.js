@@ -65,21 +65,21 @@ window.addEventListener('load',()=>{
             data: {
                 labels: fecha,
                 datasets: [{
-                    label: 'DemAyer',
-                    data: demAyer,
+                    label: 'DemHoy',
+                    data: demHoy,
                     backgroundColor: 'red',
                     borderColor: 'red',
-                    borderWidth:2,
+                    borderWidth:1.5,
                     pointRadius: 0,
                     fill: false,
                     tension: 0.1,
                 },
                 {
-                    label: 'DemHoy',
-                    data: demHoy,
+                    label: 'DemAyer',
+                    data: demAyer,
                     backgroundColor: 'green',
                     borderColor: 'green',
-                    borderWidth:2,
+                    borderWidth:1.5,
                     pointRadius: 0,
                     fill: false,
                     tension: 0.1,
@@ -89,7 +89,7 @@ window.addEventListener('load',()=>{
                     data: demSemanaAnt,
                     backgroundColor: 'blue',
                     borderColor: 'blue',
-                    borderWidth:2,
+                    borderWidth:1.5,
                     pointRadius: 0,
                     fill: false,
                     tension: 0.1,
@@ -97,9 +97,32 @@ window.addEventListener('load',()=>{
             ]
             },
             options: {
-                plugins: {
-                    
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    intersect: false,
+                    mode: 'index',
+                  },
+                  plugins: {
+                    tooltip: {
+                        boxWidth:10,
+                        boxHeight:2,
+                        caretPadding: 50,
+                        caretSize: 0,
+                        titleFont:{
+                            size:25
+                        },
+                        bodyFont:{
+                            size:20
+                        },
+                        position: 'nearest',
+                        }
                 },
+                hoverBackgroundColor:'white',
+                pointRadius: 0,
+                pointHoverRadius:5,
+                pointHoverBorderWidth:4,
+                pointHitRadius:10,
                 scales:  {
                 y: {
                     type: 'linear',

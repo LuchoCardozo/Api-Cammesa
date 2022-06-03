@@ -67,21 +67,21 @@ await dataChaco();
         data: {
             labels: fecha,
             datasets: [{
-                label: 'DemAyer',
-                data: demAyer,
+                label: 'DemHoy',
+                data: demHoy,
                 backgroundColor: 'red',
                 borderColor: 'red',
-                borderWidth:2,
+                borderWidth:1.5,
                 pointRadius: 0,
                 fill: false,
                 tension: 0.1,
             },
             {
-                label: 'DemHoy',
-                data: demHoy,
+                label: 'DemAyer',
+                data: demAyer,
                 backgroundColor: 'green',
                 borderColor: 'green',
-                borderWidth:2,
+                borderWidth:1.5,
                 pointRadius: 0,
                 fill: false,
                 tension: 0.1,
@@ -91,7 +91,7 @@ await dataChaco();
                 data: demSemanaAnt,
                 backgroundColor: 'blue',
                 borderColor: 'blue',
-                borderWidth:2,
+                borderWidth:1.5,
                 pointRadius: 0,
                 fill: false,
                 tension: 0.1,
@@ -99,6 +99,8 @@ await dataChaco();
         ]
         },
         options: {
+            responsive: true,
+            maintainAspectRatio: false,
             interaction: {
                 intersect: false,
                 mode: 'index',
