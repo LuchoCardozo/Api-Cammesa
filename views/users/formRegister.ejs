@@ -1,96 +1,123 @@
 <%- include('../partials/head',{title:'Register'}); %>
 
-<body>
-
-    <%- include('../partials/header') %>
-    <main>
-
-  
-    <h1>REGISTRATE!!!!!!</h1>
-
-    <form action="/users/register" method="POST" enctype="multipart/form-data">
-        <input type="text" name="first_name" id="first_name" placeholder="NOMBRE"
-            value="<%= locals.oldData ? oldData.first_name : null %>"> <br>
-        <% if (locals.errors && errors.first_name) { %>
-            <div>
-                <p>
-                    <%= errors.first_name.msg %>
-                </p>
-            </div>
-            <% } %>
-                <input type="text" name="last_name" id="last_name" placeholder="APELLIDO"
-                    value="<%= locals.oldData ? oldData.last_name : null %>"><br>
-                <% if (locals.errors && errors.last_name) { %>
-                    <div>
-                        <p>
-                            <%= errors.last_name.msg %>
-                        </p>
-                    </div>
-                    <% } %>
-                    <input type="number" name="legajo" id="legajo" placeholder="LEGAJO"
-                            value="<%= locals.oldData ? oldData.legajo : null %>"><br>
-                        <% if (locals.errors && errors.legajo) { %>
+    <body>
+        <%- include('../partials/header') %>
+            <main>
+                <h1>REGISTRATE!!!!!!</h1>
+                <form action="/users/register" method="POST" enctype="multipart/form-data">
+                  
+                    <div class="input-container">
+                        <input type="text" name="first_name" id="first_name" required
+                        value="<%= locals.oldData ? oldData.first_name : null %>"> 
+                        <label>NOMBRE</label> 
+                        <% if (locals.errors && errors.first_name) { %>
                             <div>
                                 <p>
-                                    <%= errors.legajo.msg %>
+                                    <%= errors.first_name.msg %>
                                 </p>
                             </div>
                             <% } %>
-                        <input type="email" name="email" id="email" placeholder="EMAIL"
-                            value="<%= locals.oldData ? oldData.email : null %>"><br>
-                        <% if (locals.errors && errors.email) { %>
-                            <div>
-                                <p>
-                                    <%= errors.email.msg %>
-                                </p>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="last_name" id="last_name" required
+                                value="<%= locals.oldData ? oldData.last_name : null %>">
+                                <label>APELLIDO</label> 
+                            <% if (locals.errors && errors.last_name) { %>
+                                <div>
+                                    <p>
+                                        <%= errors.last_name.msg %>
+                                    </p>
+                                </div>
+                                <% } %>
                             </div>
-                            <% } %>
-                                <input type="password" name="password" id="password" placeholder="CONTRASEÑA"><br>
-                                <% if (locals.errors && errors.password) { %>
-                                    <div>
-                                        <p>
-                                            <%= errors.password.msg %>
-                                        </p>
+                                <div class="input-container">
+                                    <input type="number" name="legajo" id="legajo" required
+                                        value="<%= locals.oldData ? oldData.legajo : null %>"><br>
+                                        <label>LEGAJO</label> 
+                                        <% if (locals.errors && errors.legajo) { %>
+                                        <div>
+                                            <p>
+                                                <%= errors.legajo.msg %>
+                                            </p>
+                                        </div>
+                                        <% } %>
                                     </div>
-                                    <% } %>
-                                        <input type="file" name="avatar" id="avatar" placeholder="AVATAR"><br>
-                                        <% if (locals.errors && errors.avatar) { %>
-                                            <div>
-                                                <p>
-                                                    <%= errors.avatar.msg %>
-                                                </p>
+                                        <div class="input-container">
+                                            <input type="email" name="email" id="email" required
+                                                value="<%= locals.oldData ? oldData.email : null %>"><br>
+                                                <label>EMAIL</label> 
+                                                <% if (locals.errors && errors.email) { %>
+                                                <div>
+                                                    <p>
+                                                        <%= errors.email.msg %>
+                                                    </p>
+                                                </div>
+                                                <% } %>
                                             </div>
-                                            <% } %>
-
-                                                <label>
-                                                    <input type="checkbox" name="avatar_def">Usar avatar
-                                                </label>
-
-                                                <select name="managements" id="managements">
-
-                                                    <option value="" disabled selected>Seleccione la Gerencia</option>
-                                        
-                                                        <% management.forEach(manage => { %>
-                                                             
-                                                            <option value="<%= manage.id %>" <%=locals.oldData &&
-                                                                (manage.id == oldData.managements) ? "selected" : null %>
-                                                                >
-                                                                <%= manage.name %>
-                                                            </option>
-                                                            <% }) %>
-
-                                                </select>
-                                                <% if (locals.errors && errors.managements) { %>
-                                                    <div>
-                                                        <p>
-                                                            <%= errors.managements.msg %>
-                                                        </p>
+                                                <div class="input-container">
+                                                    <input type="password" name="password" id="password" required>
+                                                        <label>PASSWORD</label> 
+                                                        <% if (locals.errors && errors.password) { %>
+                                                        <div>
+                                                            <p>
+                                                                <%= errors.password.msg %>
+                                                            </p>
+                                                        </div>
+                                                        <% } %>
                                                     </div>
-                                                    <% } %>
-                                                        <button type="submit">crear </button>
 
-    </form>
-</main>
-</body>
+                                                    <div class="inputImagenCheck">
 
-</html>
+                                                        <div class="input-container">
+                                                            
+                                                            <input type="file" name="avatar" id="avatar">
+                                                            <label>AVATAR</label> 
+                                                            <% if (locals.errors && errors.avatar) { %>
+                                                                <div>
+                                                                    <p>
+                                                                        <%= errors.avatar.msg %>
+                                                                    </p>
+                                                                </div>
+                                                                <% } %>
+                                                                
+                                                            </div>
+                                                            <div class="check">
+                                                                <input type="checkbox" id="inpcheck" name="avatar_def">  
+                                                                <label>USAR AVATAR</label>
+                                                            </div>
+                                                        </div>
+                                                                <div class="input-container">
+                                                                    <select name="managements" id="managements">
+
+                                                                        <option value="" disabled selected>Seleccione la
+                                                                            Gerencia</option>
+
+                                                                        <% management.forEach(manage=> { %>
+
+                                                                            <option value="<%= manage.id %>"
+                                                                                <%=locals.oldData &&
+                                                                                (manage.id==oldData.managements)
+                                                                                ? "selected" : null %>
+                                                                                >
+                                                                                <%= manage.name %>
+                                                                            </option>
+                                                                            <% }) %>
+
+                                                                    </select>
+                                                                    <% if (locals.errors && errors.managements) { %>
+                                                                        <div>
+                                                                            <p>
+                                                                                <%= errors.managements.msg %>
+                                                                            </p>
+                                                                        </div>
+                                                                        <% } %>
+
+                                                                    </div>
+                                                                            <button type="submit"
+                                                                                class="myButton">CREAR</button>
+
+                </form>
+            </main>
+    </body>
+
+    </html>
