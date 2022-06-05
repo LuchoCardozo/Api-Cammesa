@@ -1,51 +1,64 @@
 <%- include('../partials/head',{title:'NEA'}); %>
-<body>
-    <%- include('../partials/header') %>
-    <main>
 
-        <h1>DEMANDA NEA</h1>
-        <div class="maximas">
-            <div>
-                <h3>Max Hoy</h3>
-                <h2 id="maxHoy"></h2>
-            </div>
-            <div>
-                <h3>Max Ayer</h3>
-                <h2 id="maxAyer"></h2>
-            </div>
-            <div>
-                <h3>Max Sem Ant</h3>
-                <h2 id="maxSemAnt"></h2>
-            </div>
-        </div>
-        
-        <div class="grafico" >
-            <canvas id="myChart" ></canvas>
-        </div>
-        
-        <div class="grafico1" >
-            <canvas id="myTemp" ></canvas>
-            </div>
-            <div class="tabla">
-                <table >
-                    <thead>
-                        <tr>
-                            <th>hora</th>
-                            <th>demHoy</th>
-                            <th>demAyer</th>
-                            <th>demSemAnt</th>
-                            <th>TemHoy</th>
-                            <th>TemAyer</th>
-                            <th>TemSemAnt</th>
-                        </tr>
-                    </thead>
-                    
-                    <tbody id="content" >
-                  
+    <body>
+        <%- include('../partials/header') %>
+            <main>
+                <h1>DEMANDA NEA</h1>
+                <div class="maximas">
+                    <div>
+                        <h3>Ahora</h3>
+                        <h2 id="ahora"></h2>
+                    </div>
+                    <div>
+                        <h3>10 min antes</h3>
+                        <h2 id="antes1"></h2>
+                    </div>
+                    <div>
+                        <h3>20 min antes</h3>
+                        <h2 id="antes"></h2>
+                    </div>
+                    <div>
+                        <h3>Max Hoy</h3>
+                        <h2 id="maxHoy"></h2>
+                    </div>
+                    <div>
+                        <h3>Max Ayer</h3>
+                        <h2 id="maxAyer"></h2>
+                    </div>
+                    <div>
+                        <h3>Max Sem Ant</h3>
+                        <h2 id="maxSemAnt"></h2>
+                    </div>
+                </div>
+
+                <div class="grafico">
+                    <canvas id="myChart"></canvas>
+                </div>
+
+                <div class="grafico1">
+                    <canvas id="myTemp"></canvas>
+                </div>
+                <div class="tabla">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>hora</th>
+                                <th>demHoy</th>
+                                <th>demAyer</th>
+                                <th>demSemAnt</th>
+                                <th>TemHoy</th>
+                                <th>TemAyer</th>
+                                <th>TemSemAnt</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="content">
+
                         </tbody>
                     </table>
                 </div>
             </main>
-<script src="/js/grafNea.js"></script>
-</body>
-</html>
+            <script src="/js/grafNea.js"></script>
+    </body>
+
+    </html>

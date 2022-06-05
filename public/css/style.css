@@ -12,7 +12,7 @@ body {
   width: 100vw;
   background: rgb(7, 1, 110);
   background: linear-gradient(90deg, rgba(7, 1, 110, 1) 0%, rgba(1, 252, 255, 1) 91%);
-  font-family: 'Syncopate', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -72,7 +72,7 @@ nav a {
   color: #fff;
   padding: 14px 15px 10px 15px;
   background-color: inherit;
-  font-family: 'Syncopate', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
   margin: 0;
 }
@@ -132,19 +132,24 @@ main h1 {
 /*****Start Style maximas***/
 
 .maximas {
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: auto;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  text-transform: uppercase;
 }
 
 .maximas div {
   display: block;
   margin: auto;
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
-  padding: 20px;
-  margin-bottom: 15px;
+  padding: 10px 20px;
   text-align: end;
   text-transform: uppercase;
   background: rgba(7, 1, 110, 0.37);
@@ -202,7 +207,7 @@ table {
 
 tr:hover {
   background-color: rgba(7, 1, 110, 1);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 table td,
@@ -218,7 +223,7 @@ table thead {
   background-color: rgba(7, 1, 110, 1);
   color: #fff;
   text-transform: uppercase;
-  font-family: 'Syncopate', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*** end style table ***/

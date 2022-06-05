@@ -1,10 +1,15 @@
 window.addEventListener('load',()=>{
 
-
 let tbody = document.getElementById('content');
 let maxHoy = document.getElementById('maxHoy');
 let maxAyer = document.getElementById('maxAyer');
 let maxSemAnt = document.getElementById('maxSemAnt');
+
+let ahora = document.getElementById('ahora');
+let antes = document.getElementById('antes1');
+let masAntes = document.getElementById('antes');
+
+
 
 chart();
 let fecha = [];
@@ -22,9 +27,9 @@ chaco.forEach(element => {
     fecha.push(moment(element.fecha).format('HH:mm'))
     if(element.demHoy){
       demHoyMax.push(element.demHoy)
-    }else{
-        demHoyMax.push(0)
     }
+
+
     demHoy.push(element.demHoy)
     demAyer.push(element.demAyer)
     demSemanaAnt.push(element.demSemanaAnt)
@@ -55,6 +60,9 @@ function arrayMax(arrayDem) {
 maxHoy.innerHTML += fecha[demHoyMax.indexOf(arrayMax(demHoyMax))] + ' hs   '+ arrayMax(demHoyMax)+' MW'
 maxAyer.innerHTML += fecha[demAyer.indexOf(arrayMax(demAyer))] + ' hs   '+ arrayMax(demAyer)+' MW'
 maxSemAnt.innerHTML += fecha[demSemanaAnt.indexOf(arrayMax(demSemanaAnt))] + ' hs   '+arrayMax(demSemanaAnt)+' MW'
+ahora.innerHTML +=  fecha[demHoyMax.length-1] + ' hs   '+demHoyMax[demHoyMax.length-1]+' MW'
+antes.innerHTML +=  fecha[demHoyMax.length-3] + ' hs   '+demHoyMax[demHoyMax.length-3]+' MW'
+masAntes.innerHTML +=  fecha[demHoyMax.length-5] + ' hs   '+demHoyMax[demHoyMax.length-5]+' MW'
 
 }
 
@@ -140,3 +148,5 @@ await dataChaco();
 }
 
 })
+
+setInterval("location.reload()",600000);
