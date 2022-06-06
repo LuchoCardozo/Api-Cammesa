@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
     let maxHoy = document.getElementById('maxHoy');
     let maxAyer = document.getElementById('maxAyer');
     let maxSemAnt = document.getElementById('maxSemAnt');
-
     let ahora = document.getElementById('ahora');
     let antes = document.getElementById('antes1');
     let masAntes = document.getElementById('antes');
@@ -60,7 +59,6 @@ window.addEventListener('load', () => {
         antes.innerHTML += fecha[demHoyMax.length - 3] + ' hs   ' + demHoyMax[demHoyMax.length - 3] + ' MW'
         masAntes.innerHTML += fecha[demHoyMax.length - 5] + ' hs   ' + demHoyMax[demHoyMax.length - 5] + ' MW'
     }
-
 
     async function chart() {
         await dataCorrientes();
@@ -134,14 +132,9 @@ window.addEventListener('load', () => {
                         beginAtZero: true
                     }
                 }
-
             }
-
-
         })
-
     }
-
 });
 
 setInterval("location.reload()", 600000);

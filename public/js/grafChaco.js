@@ -4,12 +4,9 @@ let tbody = document.getElementById('content');
 let maxHoy = document.getElementById('maxHoy');
 let maxAyer = document.getElementById('maxAyer');
 let maxSemAnt = document.getElementById('maxSemAnt');
-
 let ahora = document.getElementById('ahora');
 let antes = document.getElementById('antes1');
 let masAntes = document.getElementById('antes');
-
-
 
 chart();
 let fecha = [];
@@ -28,7 +25,6 @@ chaco.forEach(element => {
     if(element.demHoy){
       demHoyMax.push(element.demHoy)
     }
-
 
     demHoy.push(element.demHoy)
     demAyer.push(element.demAyer)
@@ -65,7 +61,6 @@ antes.innerHTML +=  fecha[demHoyMax.length-3] + ' hs   '+demHoyMax[demHoyMax.len
 masAntes.innerHTML +=  fecha[demHoyMax.length-5] + ' hs   '+demHoyMax[demHoyMax.length-5]+' MW'
 
 }
-
 
 async function chart (){
 await dataChaco();
@@ -139,14 +134,9 @@ await dataChaco();
                 beginAtZero: true
             }
         }
-
     }
-
-
     })
-
 }
-
 })
 
 setInterval("location.reload()",600000);

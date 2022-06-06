@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
     let maxHoy = document.getElementById('maxHoy');
     let maxAyer = document.getElementById('maxAyer');
     let maxSemAnt = document.getElementById('maxSemAnt');
-
     let ahora = document.getElementById('ahora');
     let antes = document.getElementById('antes1');
     let masAntes = document.getElementById('antes');
@@ -219,9 +218,7 @@ window.addEventListener('load', () => {
                 }
             }
         })
-
     }
 });
-
 
 setInterval("location.reload()", 600000);
